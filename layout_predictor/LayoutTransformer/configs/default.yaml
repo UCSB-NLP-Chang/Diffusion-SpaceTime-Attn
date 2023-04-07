@@ -1,0 +1,70 @@
+MODEL:
+    PRETRAIN: True
+    ENCODER: 
+        NAME: 'Rel2Box'
+        REL_GT: False
+        VOCAB_SIZE: 206
+        OBJ_CLASSES_SIZE: 155
+        HIDDEN_SIZE: 256
+        NUM_LAYERS: 4
+        ATTN_HEADS: 4
+        DROPOUT: 0.1
+        ENABLE_NOISE: False
+        NOISE_SIZE: 64
+    DECODER:
+        HEAD_TYPE: 'GMM' # 'GMM', 'Linear'
+        BOX_LOSS: 'PDF' # for 'GMM' -> 'PDF', for 'Linear' -> 'Reg'
+        SCHEDULE_SAMPLE: False
+        TWO_PATH: True
+        GLOBAL_FEATURE: True
+        GREEDY: False
+        XY_TEMP: 1.
+        WH_TEMP: 1.
+    REFINE:
+        REFINE: False
+        HEAD_TYPE: 'Linear'
+        BOX_LOSS: 'Reg'
+        X_Softmax: True
+    TRAINER: 
+        NAME: 'PretrainTrainer'
+    LOSS:
+        WEIGHT_VOCAB_LOSS: 1.8
+        WEIGHT_TYPE_LOSS: 0.1
+        WEIGHT_BOX_LOSS: 0.1
+        KD_LOSS: True
+        TOPK: -1
+DATASETS:
+    NAME: 'coco'
+    DATA_DIR_PATH: './data/coco/'
+DATALOADER:
+    SMART_SAMPLING: True
+    SHUFFLE: True
+    VAL_SPLIT: 0.1
+    NUM_WORKER: 0
+SOLVER:
+    EPOCHS: 50
+    BATCH_SIZE: 64
+    PRETRAIN_WEIGHT: ''
+    ENCODER:
+        LR_SCHEDULER: 'BertScheduler'   # BaseScheduler, ChrisScheduler, BertScheduler
+        WARMUP_RATIO: 0.2
+        HOLD_RATIO: 0.001
+        DECAY_RATIO: 0.9
+        MAX_LR: 0.0004
+        MIN_LR: 0.00000001
+    BBOX_HEAD:
+        LR_SCHEDULER: 'BertScheduler'   # BaseScheduler, ChrisScheduler, BertScheduler
+        WARMUP_RATIO: 0.2
+        HOLD_RATIO: 0.001
+        DECAY_RATIO: 0.9
+        MAX_LR: 0.0004
+        MIN_LR: 0.00000001
+OUTPUT:
+    NUM_STEPS_SHOW_LOSS: 100
+    OUTPUT_DIR: 'saved/example'
+TEST:
+    MODE: 'model'
+    LAYOUT_MODE: False
+    RANDOM: False
+    SAMPLE_IDX: -1
+    OUTPUT_DIR: 'saved/example/test/'

@@ -1,0 +1,1 @@
+The pretrained checkpoint can be downloaded <a href="https://drive.google.com/file/d/147UdbmtAgnB1tjglvxljXVn_OxswuY1f/view?usp=sharing">here</a>.
