@@ -1,3 +1,4 @@
+# iccv version
 from inspect import isfunction
 import math
 import torch
@@ -8,6 +9,7 @@ import numpy as np
 import pickle as pkl
 
 from ldm.modules.diffusionmodules.util import checkpoint
+from process_id import NON_EXISTING_NAME_ID
 
 mode = "fix_radius_0p2"
 
@@ -170,29 +172,6 @@ class CrossAttention(nn.Module):
             nn.Dropout(dropout)
         )
 
-    def forward_fourbaseline(self, A, x, context):
-        h = self.heads
-
-        q = self.to_q(x)
-        context = default(context, x)
-        k = self.to_k(context)
-        v = self.to_v(context)
-
-        q, k, v = map(lambda t: rearrange(t, 'b n (h d) -> (b h) n d', h=h), (q, k, v))
-
-        sim = einsum('b i d, b j d -> b i j', q, k) * self.scale
-
-        A = A.unsqueeze(0).repeat(16,1,1).cuda()
-        A *= torch.amax(sim, dim=(1,2)).reshape(-1,1,1)
-        A *= 1.0
-        sim += A
-        attn = sim.softmax(dim=-1)
-
-        out = einsum('b i j, b j d -> b i d', attn, v)
-        out = rearrange(out, '(b h) n d -> b n (h d)', h=h)
-
-        return self.to_out(out)
-
     def forward(self, x, context=None, mask=None, self_attention_region=None):
         h = self.heads
 
@@ -235,6 +214,12 @@ class CrossAttention(nn.Module):
 
         return self.to_out(out)
 
+import torchvision
+def plot(mask_tensor, i):
+    mask_tensor = mask_tensor.unsqueeze(0).repeat(3,1,1).to(torch.uint8) * 255
+    torchvision.io.write_png(mask_tensor, "test%d.png"%(i))
+    return
+
 class BasicTransformerBlock(nn.Module):
     def __init__(self, dim, n_heads, d_head, dropout=0., context_dim=None, gated_ff=True, checkpoint=True):
         super().__init__()
@@ -246,59 +231,71 @@ class BasicTransformerBlock(nn.Module):
         self.norm2 = nn.LayerNorm(dim)
         self.norm3 = nn.LayerNorm(dim)
         self.checkpoint = checkpoint
-        self.time = 981
+        self.uncond = torch.load("uncond_%s_g0.pt"%(mode))
+
 
     def forward(self, x, context=None, time=None, text_index=None, coef=None, bboxs_curr=None):
-        self.time = time
         self.bboxs_curr = bboxs_curr
+        num_objects = len(bboxs_curr)
+        if time == 981: # 981 is the first timestamp for 50-step infernece. Need to change this if # step changes.
+            self.curr_cs = []
+            self.masks = []
+            dim = int(np.sqrt(x.shape[1]))
+            channel = x.shape[2]
+            for i in range(num_objects):
+                curr_c = torch.load("c%d_%s_g%d.pt"%(i, mode, NON_EXISTING_NAME_ID))
+                curr_c = torch.cat((self.uncond, curr_c))
+                self.curr_cs.append(curr_c)
+
+                # for each dimension, prepare corresponding mask
+                obj_x = bboxs_curr[i][0]
+                obj_y = bboxs_curr[i][1]
+
+                axis1 = torch.arange(dim, dtype=torch.float32) / dim
+                axis2 = torch.arange(dim, dtype=torch.float32) / dim
+
+                dist1 = (axis1 - obj_x) ** 2
+                dist2 = (axis2 - obj_y) ** 2
+
+                dist = dist1.unsqueeze(0) + dist2.unsqueeze(1)
+                mask = dist < 0.04 # r = 0.2, 0.2**2 = 0.04
+                mask = mask.reshape(1, dim, dim, 1).repeat(1, 1, 1, channel).to(x.device)
+                self.masks.append(mask)
+
+        
         return checkpoint(self._forward, (x, context, coef), self.parameters(), self.checkpoint)
 
-    def _forward(self, x, context=None, coef=None):
-        # For some reason, loading pickle here is *way* faster than pass 
-        # bboxs within the forward function
-        with open("curr_bboxs_%s.pkl"%(mode), "rb") as f:
-            bboxs = pkl.load(f)
-        # bboxs = self.bboxs_curr
+    def _forward(self, x, context=None, coef=None, bboxs_curr_input=None):
+        bboxs = self.bboxs_curr
         num_objects = len(bboxs)
-        curr_cs = []
+        curr_cs = self.curr_cs
         gs = []
-        uncond = torch.load("uncond_%s.pt"%(mode))
-        for i in range(num_objects):
-            curr_c = torch.load("c%d_%s.pt"%(i,mode))
-            curr_c = torch.cat((uncond, curr_c))
-            curr_cs.append(curr_c)
         
         x = self.attn1(self.norm1(x)) + x
+        x1 = x.clone()
         dim = int(np.sqrt(x.shape[1]))
         channel = x.shape[2]
         for i in range(num_objects):
-            gs.append(self.attn2(self.norm2(x), context=curr_cs[i]) + x)
+            gs.append(self.attn2(self.norm2(x), context=curr_cs[i]))
 
-        g =  self.attn2(self.norm2(x), context=context) + x
+        g =  self.attn2(self.norm2(x), context=context)
         x.reshape(2,dim,dim,channel)[:,:,:,:] = g.reshape(2,dim,dim,channel)
-
+        
         for i in range(num_objects):
-            coefficient = coef
             if mode == 'fix_radius_0p2':
-                mask_tensor = torch.zeros(dim, dim)
                 centroid_dim1 = bboxs[i][1]
                 centroid_dim2 = bboxs[i][0]
-                centroid_dim1 = min(max(centroid_dim1, 0.0),1.0)
-                centroid_dim2 = min(max(centroid_dim2, 0.0),1.0)
 
-                pixels = 0
-                for i_dim in range(dim):
-                    for j_dim in range(dim):
-                        distance_square = (i_dim/dim - centroid_dim1)**2 + (j_dim/dim - centroid_dim2)**2
-                        if distance_square < 0.04:
-                            mask_tensor[i_dim][j_dim] = 1
-                            pixels += 1
-                diff_tensor = (8.0/(num_objects)*coefficient[i] * gs[i]).reshape(2,dim,dim,channel) - (8.0/(num_objects)*coefficient[i] * g).reshape(2,dim,dim,channel) # coef is initially 0.5, 0.5*2=1.0
-                mask_tensor = mask_tensor.reshape(1, dim, dim, 1).repeat(2, 1, 1, channel).to(g)
+                coefficient = coef[i]
+                diff_tensor = (coefficient * gs[i]).reshape(2,dim,dim,channel)[1:] - (coefficient * g).reshape(2,dim,dim,channel)[0:1]
+                # ==================
+                mask_tensor = self.masks[i]
                 add_tensor = mask_tensor * diff_tensor
-                x.reshape(2,dim,dim,channel)[:,:,:,:] = x.reshape(2,dim,dim,channel) + add_tensor
-            else:
-                x=g
+                x.reshape(2,dim,dim,channel)[1:,:,:,:] = x.reshape(2,dim,dim,channel)[1:,:,:,:] + add_tensor
+                # ==================
+
+        x = x + x1
+
         x = self.ff(self.norm3(x)) + x
         return x
 

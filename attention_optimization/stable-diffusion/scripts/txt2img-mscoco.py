@@ -4,6 +4,7 @@ import sys
 import cv2
 import torch
 import numpy as np
+import json
 from omegaconf import OmegaConf
 from PIL import Image
 from imwatermark import WatermarkEncoder
@@ -26,6 +27,7 @@ from transformers import AutoFeatureExtractor
 import pickle as pkl
 
 from inference_coco import inference_sentence
+from process_id import NON_EXISTING_NAME_ID
 
 # load safety model
 safety_model_id = "CompVis/stable-diffusion-safety-checker"
@@ -114,7 +116,7 @@ def main():
         type=str,
         nargs="?",
         help="dir to write results to",
-        default="outputs/txt2img-samples-optimization_coef_add1d5-2-new"
+        default="outputs/notuse"
     )
     parser.add_argument(
         "--skip_grid",
@@ -230,6 +232,12 @@ def main():
         help="the seed (for reproducible sampling)",
     )
     parser.add_argument(
+        "--process_id",
+        type=int,
+        default=0,
+        help="Index of process",
+    )
+    parser.add_argument(
         "--precision",
         type=str,
         help="evaluate at this precision",
@@ -243,8 +251,14 @@ def main():
         opt.config = "configs/latent-diffusion/txt2img-1p4B-eval.yaml"
         opt.ckpt = "models/ldm/text2img-large/model.ckpt"
         opt.outdir = "outputs/txt2img-samples-laion400m"
-
-    seed_everything(opt.seed)
+    
+    with open("../../datasets/mscoco.txt", "r") as f:
+        contents = f.read()
+        rows = contents.split('\n')
+        rows = rows[:500]
+        prompts = []
+        for i in range(500):
+            prompts.append(rows[i])
 
     config = OmegaConf.load(f"{opt.config}")
     model = load_model_from_config(config, f"{opt.ckpt}")
@@ -260,7 +274,6 @@ def main():
         sampler = DDIMSampler(model)
 
     os.makedirs(opt.outdir, exist_ok=True)
-    outpath = opt.outdir
 
     print("Creating invisible watermark encoder (see https://github.com/ShieldMnt/invisible-watermark)...")
     wm = "StableDiffusionV1"
@@ -268,7 +281,6 @@ def main():
     wm_encoder.set_watermark('bytes', wm.encode('utf-8'))
 
     batch_size = opt.n_samples
-    n_rows = opt.n_rows if opt.n_rows > 0 else batch_size
     if not opt.from_file:
         prompt = opt.prompt
         assert prompt is not None
@@ -280,9 +292,6 @@ def main():
             data = f.read().splitlines()
             data = list(chunk(data, batch_size))
 
-    sample_path = os.path.join(outpath, "samples")
-    os.makedirs(sample_path, exist_ok=True)
-
     start_code = None
     if opt.fixed_code:
         start_code = torch.randn([opt.n_samples, opt.C, opt.H // opt.f, opt.W // opt.f], device=device)
@@ -290,39 +299,46 @@ def main():
     precision_scope = autocast if opt.precision=="autocast" else nullcontext
 
     mode = "fix_radius_0p2"
-    each_text = prompt
-    result = inference_sentence(prompt)
-    curr_bbox = result
-    with precision_scope("cuda"):
-        with model.ema_scope():
-            uc = None
-            if opt.scale != 1.0:
-                uc = model.get_learned_conditioning(batch_size * [""])
-            c = model.get_learned_conditioning(batch_size * [each_text])
-            bboxs_curr = []
-            for object_index, content in enumerate(curr_bbox):
-                curr_object = content
-                full_prompt = "a photo of " + curr_object
-                curr_c = model.get_learned_conditioning(full_prompt)
-                torch.save(curr_c, "c%d_%s.pt"%(object_index,mode))
-                bboxs_curr.append(curr_bbox[curr_object])
 
-            # gtbox
-            with open("curr_bboxs_%s.pkl"%(mode), "wb") as f:
-                pkl.dump(bboxs_curr, f)
-            shape = [opt.C, opt.H // opt.f, opt.W // opt.f]
-            sampler.sample(S=opt.ddim_steps,
-                                            conditioning=c,
-                                            batch_size=opt.n_samples,
-                                            shape=shape,
-                                            verbose=False,
-                                            unconditional_guidance_scale=opt.scale,
-                                            unconditional_conditioning=uc,
-                                            eta=opt.ddim_eta,
-                                            x_T=start_code,
-                                            text_index=0,
-                                            curr_text=each_text,
-                                            curr_bbox=curr_bbox)
+    start = 0
+    seed = 1
+    for prompt_idx, prompt in enumerate(prompts[start: (start+500)]):
+        seed_everything(seed)
+        result = inference_sentence(prompt)
+        print(f"Start inference for {prompt_idx}th prompt: {prompt}")
+        curr_bbox = result
+        with precision_scope("cuda"):
+            with model.ema_scope():
+                uc = None
+                if opt.scale != 1.0:
+                    uc = model.get_learned_conditioning(batch_size * [""])
+                c = model.get_learned_conditioning(batch_size * [prompt])
+                bboxs_curr, object_names = [], []
+                for object_index, content in enumerate(curr_bbox):
+                    curr_object = content
+                    object_names.append(curr_object)
+                    full_prompt = "a photo of " + curr_object
+                    curr_c = model.get_learned_conditioning(full_prompt)
+                    print(f"Save to {NON_EXISTING_NAME_ID}")
+                    torch.save(curr_c, "c%d_%s_g%d.pt"%(object_index, mode, NON_EXISTING_NAME_ID))
+                    bboxs_curr.append(curr_bbox[curr_object])
+
+                shape = [opt.C, opt.H // opt.f, opt.W // opt.f]
+                sampler.sample(S=opt.ddim_steps,
+                                conditioning=c,
+                                batch_size=opt.n_samples,
+                                shape=shape,
+                                verbose=False,
+                                unconditional_guidance_scale=opt.scale,
+                                unconditional_conditioning=uc,
+                                eta=opt.ddim_eta,
+                                x_T=start_code,
+                                text_index=0,
+                                curr_text=prompt,
+                                bboxs_curr=bboxs_curr,
+                                seed = seed,
+                                prompt_idx = prompt_idx + start,
+                                object_names=object_names)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,500 @@
+The bed is below the cat.
+The umbrella is above the cat.
+The cake is left of the cup.
+The bench is above the banana.
+The person is left of the refrigerator.
+The laptop is below the person.
+The oven is right of the cake.
+The cat is above the bench.
+The bench is below the umbrella.
+The cat is above the bicycle.
+The suitcase is right of the person.
+The sandwich is above the dining table.
+The motorcycle is left of the truck.
+The teddy bear is above the toilet.
+The pizza is left of the dog.
+The refrigerator is right of the dog.
+The surfboard is above the car.
+The pizza is left of the person.
+The person is left of the cow.
+The truck is below the giraffe.
+The tv is above the truck.
+The oven is below the pizza.
+The suitcase is below the person.
+The laptop is right of the cat.
+The cat is above the dining table.
+The cat is above the car.
+The train is above the dining table.
+The umbrella is above the person.
+The person is above the horse.
+The person is right of the refrigerator.
+The teddy bear is below the umbrella.
+The suitcase is left of the couch.
+The couch is below the laptop.
+The laptop is left of the sandwich.
+The dining table is below the airplane.
+The hot dog is right of the cup.
+The sandwich is right of the laptop.
+The bird is left of the teddy bear.
+The laptop is left of the dog.
+The dining table is below the bird.
+The teddy bear is right of the dog.
+The donut is above the bed.
+The cat is above the toilet.
+The teddy bear is below the person.
+The umbrella is above the cat.
+The donut is above the dining table.
+The bench is below the bird.
+The suitcase is above the bed.
+The umbrella is above the person.
+The backpack is above the cat.
+The pizza is above the bed.
+The dining table is below the cake.
+The cat is left of the couch.
+The umbrella is above the bed.
+The keyboard is left of the cat.
+The cup is left of the hot dog.
+The laptop is above the bed.
+The tv is above the laptop.
+The dog is above the cat.
+The teddy bear is below the person.
+The person is above the pizza.
+The bed is above the bench.
+The pizza is right of the bottle.
+The hot dog is above the bench.
+The umbrella is above the cat.
+The person is left of the cake.
+The bird is above the book.
+The pizza is below the person.
+The bowl is right of the hot dog.
+The cat is below the donut.
+The suitcase is below the cat.
+The broccoli is below the person.
+The teddy bear is below the couch.
+The pizza is above the dining table.
+The keyboard is below the cat.
+The horse is right of the person.
+The bed is left of the couch.
+The donut is above the keyboard.
+The chair is left of the bed.
+The umbrella is above the bird.
+The stop sign is above the bicycle.
+The cow is below the person.
+The dog is above the dining table.
+The bird is below the umbrella.
+The pizza is above the dog.
+The person is above the cake.
+The person is below the stop sign.
+The cat is above the couch.
+The laptop is below the cat.
+The dining table is below the hot dog.
+The umbrella is above the cat.
+The bus is at the left side of the stop sign.
+The surfboard is left of the bed.
+The toaster is at the left side of the bowl.
+The tv is above the bicycle.
+The dog is left of the teddy bear.
+The cat is below the person.
+The cake is left of the bear.
+The cat is below the bottle.
+The motorcycle is below the person.
+The teddy bear is below the cat.
+The stop sign is at the left side of the bus.
+The cat is below the bench.
+The stop sign is above the bicycle.
+The cow is above the dog.
+The apple is left of the banana.
+The toaster is left of the bowl.
+The couch is left of the bed.
+The cake is below the teddy bear.
+The banana is above the cat.
+The umbrella is above the dining table.
+The keyboard is below the umbrella.
+The person is above the toaster.
+The laptop is left of the oven.
+The person is below the frisbee.
+The umbrella is above the person.
+The couch is left of the bed.
+The couch is below the pizza.
+The chair is above the dog.
+The hot dog is above the chair.
+The cat is below the motorcycle.
+The person is below the umbrella.
+The person is above the giraffe.
+The chair is below the teddy bear.
+The zebra is left of the horse.
+The cow is left of the car.
+The umbrella is above the cat.
+The keyboard is below the cat.
+The teddy bear is below the cat.
+The train is left of the bench.
+The person is above the teddy bear.
+The bicycle is below the dog.
+The laptop is above the cat.
+The bench is below the laptop.
+The tv is above the dog.
+The dog is below the donut.
+The dog is left of the person.
+The apple is left of the cake.
+The couch is below the frisbee.
+The bed is below the suitcase.
+The toilet is below the cat.
+The toilet is below the teddy bear.
+The toaster is right of the person.
+The teddy bear is right of the cat.
+The dog is left of the pizza.
+The umbrella is above the bed.
+The pizza is above the dining table.
+The car is above the cat.
+The truck is below the boat.
+The kite is above the person.
+The dining table is left of the bus.
+The cat is below the teddy bear.
+The bench is above the dog.
+The hot dog is left of the broccoli.
+The bed is below the horse.
+The teddy bear is above the cake.
+The dining table is below the hot dog.
+The bench is below the suitcase.
+The motorcycle is above the cat.
+The couch is right of the person.
+The laptop is above the dog.
+The tv is above the dog.
+The couch is above the laptop.
+The pizza is above the dining table.
+The cat is left of the tv.
+The dining table is below the truck.
+The bench is below the dog.
+The bed is below the donut.
+The vase is left of the dog.
+The dog is below the sandwich.
+The bottle is below the cat.
+The backpack is right of the cat.
+The sandwich is right of the bowl.
+The laptop is above the couch.
+The cow is above the cup.
+The donut is left of the cup.
+The banana is above the handbag.
+The pizza is left of the laptop.
+The bench is below the dog.
+The train is below the clock.
+The umbrella is above the dining table.
+The truck is below the elephant.
+The cat is above the bed.
+The toilet is below the dog.
+The apple is left of the teddy bear.
+The keyboard is above the dog.
+The teddy bear is above the toilet.
+The cat is below the toilet.
+The book is below the bird.
+The keyboard is right of the apple.
+The cat is above the donut.
+The horse is left of the bus.
+The toaster is at the left side of the bowl.
+The pizza is above the book.
+The donut is right of the banana.
+The cake is below the dog.
+The teddy bear is left of the cup.
+The remote is left of the cat.
+The donut is left of the dining table.
+The keyboard is below the apple.
+The stop sign is at the left side of the bus.
+The elephant is below the person.
+The keyboard is left of the pizza.
+The donut is left of the cup.
+The person is above the bed.
+The pizza is above the bench.
+The toaster is right of the person.
+The bowl is at the right side of the stop sign.
+The bus is at the left side of the stop sign.
+The bed is left of the refrigerator.
+The sheep is left of the dog.
+The handbag is right of the cat.
+The frisbee is below the couch.
+The person is above the toaster.
+The bicycle is above the cat.
+The cat is above the teddy bear.
+The dining table is below the sandwich.
+The bus is at the left side of the stop sign.
+The umbrella is above the cat.
+The teddy bear is left of the person.
+The cat is above the laptop.
+The backpack is left of the cat.
+The train is above the bus.
+The toilet is below the cat.
+The cat is above the teddy bear.
+The laptop is right of the couch.
+The microwave is above the sandwich.
+The bowl is above the bed.
+The cup is left of the donut.
+The cup is left of the hot dog.
+The umbrella is above the cat.
+The pizza is below the broccoli.
+The bed is below the dining table.
+The umbrella is below the cat.
+The couch is right of the suitcase.
+The person is above the teddy bear.
+The umbrella is below the cat.
+The motorcycle is right of the bus.
+The bed is below the teddy bear.
+The broccoli is left of the pizza.
+The bench is below the teddy bear.
+The bed is below the person.
+The oven is below the cake.
+The toilet is above the person.
+The person is above the bicycle.
+The couch is below the snowboard.
+The cup is below the cow.
+The bed is below the backpack.
+The truck is below the elephant.
+The zebra is left of the elephant.
+The pizza is right of the book.
+The cat is below the tv.
+The bird is below the umbrella.
+The car is above the cat.
+The cow is above the cup.
+The teddy bear is right of the suitcase.
+The book is above the bed.
+The cat is left of the sink.
+The dog is right of the cat.
+The boat is above the car.
+The donut is left of the cup.
+The motorcycle is below the umbrella.
+The laptop is right of the cake.
+The sandwich is above the bowl.
+The dining table is above the dog.
+The umbrella is below the horse.
+The person is left of the oven.
+The person is above the pizza.
+The sheep is above the person.
+The bowl is below the cat.
+The car is above the cat.
+The giraffe is below the person.
+The bench is right of the bed.
+The bird is above the zebra.
+The person is right of the sheep.
+The pizza is above the dog.
+The cat is above the bird.
+The car is above the cat.
+The tv is left of the cup.
+The cup is left of the bowl.
+The dog is below the bench.
+The person is above the sandwich.
+The truck is left of the elephant.
+The cat is above the teddy bear.
+The cat is below the person.
+The bowl is above the toilet.
+The orange is right of the bird.
+The bench is above the cat.
+The elephant is left of the car.
+The banana is above the dining table.
+The umbrella is above the cat.
+The oven is below the pizza.
+The bed is below the donut.
+The bench is below the pizza.
+The cat is right of the toilet.
+The banana is left of the person.
+The dog is above the laptop.
+The microwave is above the person.
+The bed is below the suitcase.
+The hot dog is below the couch.
+The pizza is above the couch.
+The giraffe is below the person.
+The oven is below the pizza.
+The keyboard is below the cat.
+The cat is left of the teddy bear.
+The book is below the sandwich.
+The umbrella is above the cat.
+The cat is left of the keyboard.
+The person is left of the toilet.
+The bed is right of the bench.
+The cat is above the suitcase.
+The person is below the stop sign.
+The laptop is above the chair.
+The handbag is right of the bed.
+The horse is below the person.
+The zebra is below the person.
+The cat is below the bowl.
+The bowl is below the bird.
+The laptop is left of the tv.
+The cat is below the person.
+The refrigerator is left of the oven.
+The person is above the toaster.
+The bowl is below the bear.
+The truck is above the cat.
+The umbrella is above the cat.
+The bus is at the left side of the stop sign.
+The apple is left of the orange.
+The snowboard is below the couch.
+The stop sign is above the bicycle.
+The person is below the stop sign.
+The person is above the toaster.
+The apple is above the orange.
+The dining table is below the teddy bear.
+The person is left of the cake.
+The laptop is above the bed.
+The donut is right of the cup.
+The bed is above the couch.
+The clock is above the horse.
+The person is left of the cake.
+The bowl is left of the pizza.
+The surfboard is below the bed.
+The umbrella is left of the teddy bear.
+The book is below the cat.
+The suitcase is below the teddy bear.
+The chair is left of the teddy bear.
+The cat is left of the teddy bear.
+The microwave is above the person.
+The cat is below the teddy bear.
+The suitcase is below the cat.
+The person is above the pizza.
+The bed is left of the tv.
+The dining table is below the teddy bear.
+The dog is left of the keyboard.
+The dog is above the teddy bear.
+The toaster is left of the bowl.
+The cat is below the umbrella.
+The bench is above the cat.
+The pizza is above the dining table.
+The banana is above the dining table.
+The cat is below the bench.
+The pizza is above the dining table.
+The keyboard is above the dining table.
+The refrigerator is below the cat.
+The pizza is above the dining table.
+The dog is left of the bicycle.
+The person is right of the dining table.
+The toilet is below the bowl.
+The bicycle is left of the person.
+The clock is above the bird.
+The cow is left of the dining table.
+The bird is below the bowl.
+The person is right of the teddy bear.
+The toilet is left of the cat.
+The teddy bear is below the umbrella.
+The oven is below the cake.
+The umbrella is above the dining table.
+The sandwich is above the cat.
+The cow is right of the bus.
+The bed is above the handbag.
+The bird is above the book.
+The sheep is right of the person.
+The chair is below the cat.
+The teddy bear is above the laptop.
+The microwave is above the laptop.
+The car is above the cat.
+The toaster is left of the bowl.
+The pizza is above the oven.
+The bowl is at the right side of the stop sign.
+The person is left of the teddy bear.
+The suitcase is below the cat.
+The train is right of the bus.
+The teddy bear is right of the apple.
+The giraffe is right of the person.
+The giraffe is above the person.
+The toaster is left of the bowl.
+The pizza is left of the sandwich.
+The bird is above the cat.
+The cow is at the right side of the dog.
+The stop sign is at the left side of the bus.
+The bed is at the right side of the surfboard.
+The oven is at the right side of the person.
+The dog is at the left side of the teddy bear.
+The person is at the right side of the cat.
+The banana is at the left side of the donut.
+The orange is at the left side of the book.
+The oven is at the left side of the person.
+The dog is at the right side of the refrigerator.
+The motorcycle is at the left side of the train.
+The banana is at the right side of the broccoli.
+The bed is at the left side of the couch.
+The teddy bear is at the left side of the book.
+The teddy bear is at the left side of the dog.
+The pizza is at the right side of the person.
+The dog is at the right side of the toilet.
+The hot dog is at the right side of the cup.
+The person is at the left side of the couch.
+The teddy bear is at the left side of the bed.
+The teddy bear is at the left side of the cat.
+The person is at the right side of the laptop.
+The mouse is at the right side of the keyboard.
+The bowl is at the left side of the banana.
+The person is at the right side of the banana.
+The car is at the right side of the elephant.
+The cup is at the right side of the cat.
+The chair is at the left side of the bicycle.
+The dining table is at the left side of the person.
+The teddy bear is at the right side of the dog.
+The cat is at the right side of the laptop.
+The broccoli is at the left side of the pizza.
+The refrigerator is at the right side of the person.
+The person is at the left side of the keyboard.
+The cat is at the right side of the laptop.
+The person is at the right side of the refrigerator.
+The zebra is at the left side of the person.
+The person is at the left side of the refrigerator.
+The teddy bear is at the right side of the apple.
+The person is at the right side of the refrigerator.
+The laptop is at the left side of the dog.
+The cat is at the left side of the dining table.
+The laptop is at the right side of the cake.
+The motorcycle is at the right side of the person.
+The suitcase is at the left side of the cat.
+The dining table is at the left side of the dog.
+The chair is at the right side of the bed.
+The teddy bear is at the left side of the cat.
+The cat is at the left side of the teddy bear.
+The book is at the left side of the pizza.
+The person is at the left side of the giraffe.
+The pizza is at the left side of the dog.
+The bowl is at the right side of the hot dog.
+The oven is at the right side of the person.
+The bottle is at the right side of the teddy bear.
+The laptop is at the right side of the person.
+The bench is at the right side of the boat.
+The person is at the left side of the dining table.
+The person is at the right side of the pizza.
+The refrigerator is at the left side of the person.
+The person is at the right side of the cake.
+The laptop is at the left side of the dog.
+The bowl is at the left side of the banana.
+The person is at the right side of the pizza.
+The donut is at the right side of the dining table.
+The person is at the right side of the refrigerator.
+The dog is at the right side of the vase.
+The zebra is at the left side of the person.
+The banana is at the right side of the sandwich.
+The bowl is at the left side of the person.
+The laptop is at the right side of the cat.
+The cup is at the right side of the donut.
+The bottle is at the right side of the bear.
+The laptop is at the left side of the teddy bear.
+The truck is at the right side of the cow.
+The sink is at the right side of the person.
+The person is below the stop sign.
+The teddy bear is at the left side of the dog.
+The orange is at the right side of the bird.
+The toaster is right of the person.
+The person is at the left side of the oven.
+The chair is at the left side of the tv.
+The cat is at the right side of the umbrella.
+The dining table is at the left side of the oven.
+The zebra is at the right side of the person.
+The dog is at the left side of the sandwich.
+The sandwich is at the right side of the person.
+The cow is at the left side of the person.
+The bed is at the right side of the couch.
+The bowl is at the right side of the stop sign.
+The person is at the left side of the bear.
+The dog is at the right side of the laptop.
+The dog is at the right side of the horse.
+The stop sign is above the bicycle.
+The chair is at the right side of the laptop.
+The laptop is at the right side of the bed.
+The person is at the left side of the elephant.
+The cup is at the right side of the banana.
+The person is at the right side of the teddy bear.
+The cat is at the right side of the teddy bear.
+The hot dog is at the left side of the bottle.
+The hot dog is at the right side of the bowl.
+The person is at the left side of the dining table.

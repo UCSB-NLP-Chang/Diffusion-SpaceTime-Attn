@@ -68,6 +68,9 @@ class PLMSSampler(object):
         self.model = model
         self.ddpm_num_timesteps = model.num_timesteps
         self.schedule = schedule
+        self.clip_loss_model = DCLIPLoss()
+        self.clip_loss_model.requires_grad_(False)
+        # self.dino_loss = DINOLoss()
 
     def register_buffer(self, name, attr):
         if type(attr) == torch.Tensor:
@@ -108,7 +111,6 @@ class PLMSSampler(object):
                         1 - self.alphas_cumprod / self.alphas_cumprod_prev))
         self.register_buffer('ddim_sigmas_for_original_num_steps', sigmas_for_original_sampling_steps)
 
-    # @torch.no_grad()
     def sample(self,
                S,
                batch_size,
@@ -132,7 +134,10 @@ class PLMSSampler(object):
                unconditional_conditioning=None,
                text_index=None,
                curr_text="",
-               curr_bbox=None,
+               bboxs_curr=None,
+               seed=None,
+               prompt_idx=None,
+               object_names=None,
                # this has to come in the same format as the conditioning, # e.g. as encoded tokens, ...
                **kwargs
                ):
@@ -152,32 +157,37 @@ class PLMSSampler(object):
         print(f'Data shape for PLMS sampling is {size}')
 
         self.plms_sampling(conditioning, size,
-                                                    callback=callback,
-                                                    img_callback=img_callback,
-                                                    quantize_denoised=quantize_x0,
-                                                    mask=mask, x0=x0,
-                                                    ddim_use_original_steps=False,
-                                                    noise_dropout=noise_dropout,
-                                                    temperature=temperature,
-                                                    score_corrector=score_corrector,
-                                                    corrector_kwargs=corrector_kwargs,
-                                                    x_T=x_T,
-                                                    log_every_t=log_every_t,
-                                                    unconditional_guidance_scale=unconditional_guidance_scale,
-                                                    unconditional_conditioning=unconditional_conditioning,
-                                                    text_index=text_index,
-                                                    curr_text=curr_text,
-                                                    curr_bbox=curr_bbox
-                                                    )
+            callback=callback,
+            img_callback=img_callback,
+            quantize_denoised=quantize_x0,
+            mask=mask, x0=x0,
+            ddim_use_original_steps=False,
+            noise_dropout=noise_dropout,
+            temperature=temperature,
+            score_corrector=score_corrector,
+            corrector_kwargs=corrector_kwargs,
+            x_T=x_T,
+            log_every_t=log_every_t,
+            unconditional_guidance_scale=unconditional_guidance_scale,
+            unconditional_conditioning=unconditional_conditioning,
+            text_index=text_index,
+            curr_text=curr_text,
+            bboxs_curr=bboxs_curr,
+            seed=seed,
+            prompt_idx=prompt_idx,
+            object_names=object_names
+            )
         return None
 
-    # @torch.no_grad()
     def plms_sampling(self, cond, shape,
                       x_T=None, ddim_use_original_steps=False,
                       callback=None, timesteps=None, quantize_denoised=False,
                       mask=None, x0=None, img_callback=None, log_every_t=100,
                       temperature=1., noise_dropout=0., score_corrector=None, corrector_kwargs=None,
-                      unconditional_guidance_scale=1., unconditional_conditioning=None,text_index=None,curr_text="",curr_bbox=None):
+                      unconditional_guidance_scale=1., unconditional_conditioning=None,text_index=None,curr_text="",bboxs_curr=None,
+                      seed=None, prompt_idx=None, object_names=None):
+        assert seed is not None
+        assert len(bboxs_curr) == len(object_names)
         device = self.model.betas.device
         b = shape[0]
         if x_T is None:
@@ -185,31 +195,29 @@ class PLMSSampler(object):
         else:
             img = x_T
         img_input = img.clone()
-
         if timesteps is None:
             timesteps = self.ddpm_num_timesteps if ddim_use_original_steps else self.ddim_timesteps
         elif timesteps is not None and not ddim_use_original_steps:
             subset_end = int(min(timesteps / self.ddim_timesteps.shape[0], 1) * self.ddim_timesteps.shape[0]) - 1
             timesteps = self.ddim_timesteps[:subset_end]
 
-        weighting_parameter = torch.tensor([0.5] * 100).to(img).float()
-        weighting_parameter = weighting_parameter.reshape(1, -1).repeat(2, 1).reshape(-1)
+        weight_initialize_coef = 5.0
+        if len(bboxs_curr) != 0:
+            weighting_parameter = torch.tensor([1 / len(bboxs_curr) * weight_initialize_coef] * 50 * len(bboxs_curr)).to(img).float()
+        else:
+            weighting_parameter = torch.tensor([]).to(img).float()
+        weighting_parameter = weighting_parameter.reshape(-1, 50)
         weighting_parameter.requires_grad = True
         from torch import optim
 
-        optimizer = optim.Adam([weighting_parameter], lr=0.05)
+        initial_lr = 0.005
+        optimizer = optim.Adam([weighting_parameter], lr=0.005)
 
-        weighting_parameter_pass = weighting_parameter.reshape(2,-1)
+        weighting_parameter_pass = weighting_parameter
 
         print("Optimizing start")
-        clip_loss_model = DCLIPLoss()
 
-        bboxs_curr = []
-        for each in curr_bbox:
-            bboxs_curr.append(curr_bbox[each])
-        # bboxs_curr = torch.tensor(bboxs_curr)
-
-        for epoch in tqdm(range(20)):
+        for epoch in tqdm(range(3)):
             total_steps = timesteps if ddim_use_original_steps else timesteps.shape[0]
             time_range = list(reversed(range(0,timesteps))) if ddim_use_original_steps else np.flip(timesteps)
             iterator = time_range
@@ -240,18 +248,14 @@ class PLMSSampler(object):
 
             img_temp = self.model.decode_first_stage(img)
             img_temp_ddim = torch.clamp((img_temp + 1.0) / 2.0, min=0.0, max=1.0)
-            img_temp_ddim = img_temp_ddim.cpu()
             
-            loss = clip_loss_model.forward_2(
+            loss = self.clip_loss_model.forward_2(
                 img_temp_ddim[0].float().cuda(), curr_text
             )
-            print("global", loss)
-            loss = 0
-
-            bboxs = curr_bbox
-            for each in bboxs:
-                x_center = bboxs[each][0]
-                y_center = bboxs[each][1]
+            
+            for each, namei in zip(bboxs_curr, object_names):
+                x_center = each[0]
+                y_center = each[1]
                 x1 = x_center - 0.2
                 x2 = x_center + 0.2
                 y1 = y_center - 0.2
@@ -260,9 +264,9 @@ class PLMSSampler(object):
                 x2 = min(x2, 1)
                 y1 = max(y1, 0)
                 y2 = min(y2, 1)
-                object_name = each.lower()
+                object_name = namei.lower()
                 object_name = object_name.replace("the ","")
-                loss_curr = clip_loss_model.forward_3(
+                loss_curr = self.clip_loss_model.forward_3(
                     img_temp_ddim[0].float().cuda()[:, int(512*y1):int(512*y2), int(512*x1):int(512*x2)], "A photo of " + object_name
                 )
                 print(object_name, loss_curr)
@@ -272,25 +276,20 @@ class PLMSSampler(object):
             loss.backward()
             optimizer.step()
 
-            image_save_path = "test"
-            lambda_save_path = "test/lambda"
-            os.makedirs(image_save_path, exist_ok=True)
-            os.makedirs(lambda_save_path, exist_ok=True)
-            if True:
-                # save image
+            # save image
+            if epoch == 2:
                 with torch.no_grad():
                     x_sample = 255.0 * rearrange(
                         img_temp_ddim[0].detach().cpu().numpy(), "c h w -> h w c"
                     )
                     imgsave = Image.fromarray(x_sample.astype(np.uint8))
-                    imgsave.save(image_save_path + "/final%d.png"%(epoch))
-                # torch.save(
-                #     weighting_parameter, lambda_save_path + "/weightingParam_final%d.pt"%(epoch)
-                # )
+                    save_path = "result_outputs/"
+                    os.makedirs(save_path, exist_ok=True)
+                    imgsave.save(save_path + "final%d_s%d_index_%d.png"%(epoch, seed, prompt_idx))
+                    pass
 
             torch.cuda.empty_cache()
 
-        # torch.save(weighting_parameter , "curr_parameter.pt")
         return None
 
     # @torch.no_grad()
@@ -305,7 +304,6 @@ class PLMSSampler(object):
                 x_in = torch.cat([x] * 2)
                 t_in = torch.cat([t] * 2)
                 c_in = torch.cat([unconditional_conditioning, c])
-                torch.save(unconditional_conditioning, "uncond_%s.pt"%(mode))
                 e_t_uncond, e_t = self.model.apply_model_extra(x_in, text_index, t_in, c_in, coef=coef, bboxs_curr=bboxs_curr).chunk(2)
                 e_t = e_t_uncond + unconditional_guidance_scale * (e_t - e_t_uncond)
 

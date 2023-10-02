@@ -464,21 +464,27 @@ def check_in_mscoco(noun_pharse):
             return True
     return False
 
+cfg_path = curr_path + '/configs/coco/coco_seq2seq_v9_ablation_4.yaml'
+model_path = curr_path + "/saved/coco_F_seq2seq_v9_ablation_4/checkpoint_90_0.0.pth"
+with open(cfg_path, 'r') as f:
+    cfg = yaml.safe_load(f)
+
+# build model
+model = build_model(cfg)
+checkpoint = torch.load(model_path)
+
+model.load_state_dict(checkpoint['state_dict'])
+model = model.cuda()
+
+from nltk.corpus import stopwords
+nlp = spacy.load("en_core_web_sm")
+stoplist = set(stopwords.words("english")).union(
+    nlp.Defaults.stop_words
+)
+
+
 def inference_sentence(sentence, opt=None):
     with torch.no_grad():
-        cfg_path = curr_path + '/configs/coco/coco_seq2seq_v9_ablation_4.yaml'
-        model_path = opt.checkpoint if (opt is not None) else (curr_path + "/saved/coco_F_seq2seq_v9_ablation_4/checkpoint_90_0.0.pth")
-        with open(cfg_path, 'r') as f:
-            cfg = yaml.safe_load(f)
-        
-        # build model
-        model = build_model(cfg)
-        checkpoint = torch.load(model_path)
-
-        model.load_state_dict(checkpoint['state_dict'])
-        model = model.cuda()
-
-
         def check_relation(sentence, object_index):
             bpe_toks = roberta.encode(sentence)
             padding = torch.ones(128 - bpe_toks.shape[0]).int()
@@ -491,7 +497,7 @@ def inference_sentence(sentence, opt=None):
             trg_mask[:,0] = 1
             doc = nlp(sentence)
             alignment = alignment_utils.align_bpe_to_words(roberta, roberta.encode(sentence), doc)
-            object_tensor = torch.zeros(128).to(torch.bool)    
+            object_tensor = torch.zeros(128).to(torch.bool)
             for each_object_index in object_index:
                 object_tensor[alignment[each_object_index]] = True
             object_tensor = object_tensor.unsqueeze(0)
@@ -506,21 +512,29 @@ def inference_sentence(sentence, opt=None):
         # # sentence = "The apple is placed above the banana."
         # # sentence = "The apple is placed right of the banana."
         # sentence = "The apple is placed right of the banana, and a sandwitch is placed to their left."
+        sentence = sentence.replace("\n", "")
+        sentence = sentence.rstrip()
+        sentence = sentence.lstrip()
         doc = nlp(sentence)
         pos = []
         for chunk in doc.noun_chunks:
             full_noun = chunk.text
+            if full_noun.lower() in stoplist:
+                continue
             key_noun = chunk.root.text
             word_index = chunk.root.i
             key_noun = key_noun.lower()
-            if check_in_mscoco(full_noun) or (opt is not None and not opt.mscoco):
+            if check_in_mscoco(full_noun):
                 pos.append(word_index)
-        output, alignment = check_relation(sentence, pos)
+        try:
+            output, alignment = check_relation(sentence, pos)
+        except:
+            return None
         index = 0
         print("Sentence: %s"%(sentence))
         results = {}
         for chunk in doc.noun_chunks:
-            if check_in_mscoco(chunk.text) or (opt is not None and not opt.mscoco):
+            if check_in_mscoco(chunk.text):
                 result_index = alignment[pos[index]][0]
                 x_cord = output[:,result_index][0][0]
                 y_cord = output[:,result_index][0][1]

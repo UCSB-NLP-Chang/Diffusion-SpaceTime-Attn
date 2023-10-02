@@ -1,0 +1,2000 @@
+Objects: white couch, silver bed
+Relation: white couch left of silver bed
+Sentence: The silver bed was situated to the right of the white couch.
+
+Objects: red tv, laptop
+Relation: red tv below laptop
+Sentence: The laptop was perched atop the entertainment center, with the red television situated below it.
+
+Objects: tennis racket, person
+Relation: tennis racket right of person
+Sentence: The person held the tennis racket in their left hand, while their right hand was extended to the right of them, holding the racket.
+
+Objects: red bottle, brown fork
+Relation: red bottle below brown fork
+Sentence: The brown fork was placed on top of the table, with the red bottle resting securely below it.
+
+Objects: silver laptop, green keyboard
+Relation: silver laptop above green keyboard
+Sentence: The silver laptop was perched atop the green keyboard, its screen illuminated with a bright glow.
+
+Objects: black bowl, person
+Relation: black bowl above person
+Sentence: The person was lying on the ground, with the black bowl hovering above them.
+
+Objects: wine glass, spoon
+Relation: wine glass above spoon
+Sentence: The wine glass was perched atop the spoon, creating an elegant display.
+
+Objects: red cup, brown knife
+Relation: red cup left of brown knife
+Sentence: The red cup was placed to the left of the brown knife.
+
+Objects: broccoli, brown pizza
+Relation: broccoli left of brown pizza
+Sentence: The brown pizza was placed on the plate, with a single stalk of broccoli to its left.
+
+Objects: motorcycle, blue boat
+Relation: motorcycle right of blue boat
+Sentence: The blue boat was parked on the side of the road, with a motorcycle parked to its right.
+
+Objects: black donut, person
+Relation: black donut above person
+Sentence: The person was standing beneath the black donut.
+
+Objects: black tv, green mouse
+Relation: black tv right of green mouse
+Sentence: The green mouse was positioned to the left of the black television.
+
+Objects: red backpack, tie
+Relation: red backpack left of tie
+Sentence: The tie was placed to the right of the red backpack.
+
+Objects: black car, white truck
+Relation: black car right of white truck
+Sentence: The white truck was parked to the left of the sleek black car.
+
+Objects: motorcycle, truck
+Relation: motorcycle left of truck
+Sentence: The motorcycle was positioned to the left of the truck.
+
+Objects: red apple, sandwich
+Relation: red apple below sandwich
+Sentence: The red apple was placed beneath the sandwich.
+
+Objects: bird, elephant
+Relation: bird left of elephant
+Sentence: The elephant was standing in the center of the room, with the bird to its left.
+
+Objects: yellow oven, toaster
+Relation: yellow oven below toaster
+Sentence: The yellow oven was placed beneath the toaster, creating a neat kitchen setup.
+
+Objects: yellow couch, toilet
+Relation: yellow couch right of toilet
+Sentence: The yellow couch was situated to the right of the toilet in the room.
+
+Objects: vase, yellow hair drier
+Relation: vase below yellow hair drier
+Sentence: The yellow hair drier was perched atop the vase, its bright color contrasting with the vase's muted hue.
+
+Objects: skateboard, person
+Relation: skateboard left of person
+Sentence: The person was standing on the sidewalk while the skateboard was to their left.
+
+Objects: sandwich, person
+Relation: sandwich above person
+Sentence: The person was looking up at the sandwich that was held above them.
+
+Objects: fork, person
+Relation: fork below person
+Sentence: The person was standing above the fork, which was placed on the ground.
+
+Objects: yellow frisbee, surfboard
+Relation: yellow frisbee left of surfboard
+Sentence: The yellow frisbee was lying on the beach to the left of the surfboard.
+
+Objects: umbrella, green suitcase
+Relation: umbrella above green suitcase
+Sentence: The green suitcase was placed on the ground, and the umbrella was opened up above it to provide shade.
+
+Objects: bus, boat
+Relation: bus left of boat
+Sentence: The bus slowly drove away from the harbor, leaving the boat behind on its right side.
+
+Objects: sink, refrigerator
+Relation: sink above refrigerator
+Sentence: The sink was installed above the refrigerator, providing easy access to the kitchen's water supply.
+
+Objects: yellow chair, white potted plant
+Relation: yellow chair right of white potted plant
+Sentence: The yellow chair was placed to the right of the white potted plant.
+
+Objects: brown bowl, person
+Relation: brown bowl left of person
+Sentence: The person was holding a brown bowl in their right hand, while the bowl was positioned to their left.
+
+Objects: black remote, person
+Relation: black remote left of person
+Sentence: The person held the black remote in their right hand, while their left hand remained empty.
+
+Objects: potted plant, toilet
+Relation: potted plant below toilet
+Sentence: The potted plant was placed underneath the toilet.
+
+Objects: red spoon, yellow bowl
+Relation: red spoon above yellow bowl
+Sentence: The red spoon was placed above the yellow bowl.
+
+Objects: green baseball bat, person
+Relation: green baseball bat right of person
+Sentence: The person held the green baseball bat in their left hand, while their right hand was empty.
+
+Objects: white oven, sink
+Relation: white oven below sink
+Sentence: The sink was installed above the white oven, leaving plenty of space for cooking.
+
+Objects: umbrella, person
+Relation: umbrella right of person
+Sentence: The person held an umbrella to their right side.
+
+Objects: white vase, brown toothbrush
+Relation: white vase left of brown toothbrush
+Sentence: The white vase was placed to the left of the brown toothbrush on the bathroom counter.
+
+Objects: car, person
+Relation: car left of person
+Sentence: The person walked along the street, with a car passing them from the left.
+
+Objects: red bottle, spoon
+Relation: red bottle above spoon
+Sentence: The red bottle was perched above the spoon on the counter.
+
+Objects: black car, train
+Relation: black car right of train
+Sentence: The train chugged along the tracks, with a black car trailing behind it on the right.
+
+Objects: fork, bowl
+Relation: fork left of bowl
+Sentence: The bowl was placed in the center of the table, with the fork to its left.
+
+Objects: yellow snowboard, person
+Relation: yellow snowboard right of person
+Sentence: The person was standing to the left of the yellow snowboard, ready to take off.
+
+Objects: brown knife, blue bowl
+Relation: brown knife above blue bowl
+Sentence: The blue bowl was placed on the kitchen counter, with the brown knife resting above it.
+
+Objects: boat, person
+Relation: boat above person
+Sentence: The person floated in the water, while the boat sailed above them.
+
+Objects: oven, sink
+Relation: oven right of sink
+Sentence: The sink was positioned to the left of the oven, creating a convenient kitchen workspace.
+
+Objects: red backpack, brown handbag
+Relation: red backpack below brown handbag
+Sentence: The brown handbag was placed on top of the red backpack.
+
+Objects: brown frisbee, skateboard
+Relation: brown frisbee left of skateboard
+Sentence: The brown frisbee flew past the skateboard, leaving it behind on its right.
+
+Objects: green frisbee, blue tennis racket
+Relation: green frisbee left of blue tennis racket
+Sentence: The green frisbee lay to the left of the blue tennis racket, ready to be picked up and thrown.
+
+Objects: black microwave, refrigerator
+Relation: black microwave above refrigerator
+Sentence: The black microwave was placed above the refrigerator.
+
+Objects: skis, surfboard
+Relation: skis above surfboard
+Sentence: The skis were propped up above the surfboard, ready for a day of adventure.
+
+Objects: red orange, black broccoli
+Relation: red orange right of black broccoli
+Sentence: The black broccoli was placed to the left of the vibrant red orange.
+
+Objects: dog, elephant
+Relation: dog above elephant
+Sentence: The dog was perched atop the elephant's back.
+
+Objects: scissors, silver teddy bear
+Relation: scissors left of silver teddy bear
+Sentence: The silver teddy bear was placed on the table, with a pair of scissors to its left.
+
+Objects: white bed, brown toilet
+Relation: white bed right of brown toilet
+Sentence: The white bed was situated to the right of the brown toilet, creating a cozy yet modern atmosphere in the room.
+
+Objects: sports ball, skateboard
+Relation: sports ball above skateboard
+Sentence: The sports ball was suspended above the skateboard.
+
+Objects: backpack, suitcase
+Relation: backpack left of suitcase
+Sentence: The suitcase was placed to the right of the backpack.
+
+Objects: wine glass, knife
+Relation: wine glass left of knife
+Sentence: The wine glass was placed to the left of the knife.
+
+Objects: red laptop, yellow remote
+Relation: red laptop above yellow remote
+Sentence: The red laptop was placed above the yellow remote on the desk.
+
+Objects: white bicycle, bus
+Relation: white bicycle right of bus
+Sentence: The bus drove past the white bicycle, which was parked to its right.
+
+Objects: cow, elephant
+Relation: cow below elephant
+Sentence: The elephant towered over the cow, which was standing below it.
+
+Objects: black backpack, tie
+Relation: black backpack right of tie
+Sentence: The tie was draped over the chair to the left of the black backpack.
+
+Objects: banana, brown cake
+Relation: banana above brown cake
+Sentence: The banana was placed atop the brown cake, adding a splash of yellow to the dessert.
+
+Objects: black broccoli, donut
+Relation: black broccoli below donut
+Sentence: The donut was perched atop the black broccoli.
+
+Objects: car, person
+Relation: car left of person
+Sentence: The person was walking along the street with a car parked to their left.
+
+Objects: bird, elephant
+Relation: bird left of elephant
+Sentence: The bird flew away from the elephant to its left.
+
+Objects: hot dog, donut
+Relation: hot dog right of donut
+Sentence: The hot dog was placed to the right of the donut on the plate.
+
+Objects: apple, donut
+Relation: apple right of donut
+Sentence: The donut was placed to the left of the apple.
+
+Objects: skis, surfboard
+Relation: skis right of surfboard
+Sentence: The skis were placed to the right of the surfboard.
+
+Objects: cup, person
+Relation: cup above person
+Sentence: The person was looking up at the cup that was hovering just above them.
+
+Objects: cow, person
+Relation: cow left of person
+Sentence: The person stood in the meadow, with the cow grazing peacefully to their left.
+
+Objects: brown banana, pizza
+Relation: brown banana below pizza
+Sentence: The brown banana was placed below the pizza.
+
+Objects: snowboard, person
+Relation: snowboard above person
+Sentence: The person was gliding down the snowy slope, with the snowboard hovering above them.
+
+Objects: sports ball, brown baseball bat
+Relation: sports ball left of brown baseball bat
+Sentence: The brown baseball bat was positioned to the right of the sports ball, ready for a swing.
+
+Objects: black backpack, person
+Relation: black backpack left of person
+Sentence: The person walked along the street, their black backpack slung over their left shoulder.
+
+Objects: hot dog, person
+Relation: hot dog right of person
+Sentence: The person was walking down the street, with a hot dog in their right hand.
+
+Objects: book, scissors
+Relation: book below scissors
+Sentence: The book was placed underneath the scissors.
+
+Objects: banana, donut
+Relation: banana left of donut
+Sentence: The donut was placed to the right of the banana, creating a delicious snack combination.
+
+Objects: broccoli, cake
+Relation: broccoli left of cake
+Sentence: The cake was placed to the right of the broccoli, creating a colorful contrast.
+
+Objects: black toaster, yellow refrigerator
+Relation: black toaster above yellow refrigerator
+Sentence: The black toaster was perched atop the yellow refrigerator, its heat radiating throughout the kitchen.
+
+Objects: red airplane, train
+Relation: red airplane right of train
+Sentence: The red airplane flew in the sky to the right of the speeding train.
+
+Objects: frisbee, surfboard
+Relation: frisbee right of surfboard
+Sentence: The surfboard was positioned to the left of the frisbee.
+
+Objects: elephant, person
+Relation: elephant right of person
+Sentence: The person stood to the left of the elephant, admiring its majestic size.
+
+Objects: black mouse, remote
+Relation: black mouse left of remote
+Sentence: The black mouse was situated to the left of the remote.
+
+Objects: umbrella, blue handbag
+Relation: umbrella left of blue handbag
+Sentence: The blue handbag was placed to the right of the umbrella.
+
+Objects: yellow tv, mouse
+Relation: yellow tv above mouse
+Sentence: The yellow television was perched above the mouse, providing a clear view of the screen.
+
+Objects: silver orange, donut
+Relation: silver orange right of donut
+Sentence: The donut was placed to the left of the shiny silver orange.
+
+Objects: wine glass, brown fork
+Relation: wine glass right of brown fork
+Sentence: The brown fork was placed to the left of the wine glass.
+
+Objects: apple, brown donut
+Relation: apple above brown donut
+Sentence: The apple was perched atop the brown donut.
+
+Objects: orange, person
+Relation: orange right of person
+Sentence: The person was standing in the middle of the room, with an orange to their right.
+
+Objects: dog, person
+Relation: dog left of person
+Sentence: The person was walking down the street with the dog to their left.
+
+Objects: white snowboard, tennis racket
+Relation: white snowboard right of tennis racket
+Sentence: The white snowboard was propped up against the wall, to the right of the tennis racket.
+
+Objects: black toaster, white sink
+Relation: black toaster right of white sink
+Sentence: The white sink was situated to the left of the black toaster.
+
+Objects: yellow vase, hair drier
+Relation: yellow vase below hair drier
+Sentence: The yellow vase was positioned beneath the hair drier.
+
+Objects: red couch, blue toilet
+Relation: red couch left of blue toilet
+Sentence: The red couch was situated to the left of the blue toilet in the room.
+
+Objects: orange, yellow pizza
+Relation: orange left of yellow pizza
+Sentence: The yellow pizza was placed to the right of the orange.
+
+Objects: bicycle, silver motorcycle
+Relation: bicycle left of silver motorcycle
+Sentence: The silver motorcycle was parked to the right of the bicycle, its chrome glinting in the sunlight.
+
+Objects: handbag, suitcase
+Relation: handbag left of suitcase
+Sentence: The handbag was placed to the left of the suitcase.
+
+Objects: black book, yellow clock
+Relation: black book below yellow clock
+Sentence: The yellow clock was perched atop the shelf, with the black book resting securely below it.
+
+Objects: brown car, silver motorcycle
+Relation: brown car below silver motorcycle
+Sentence: The silver motorcycle was parked above the brown car.
+
+Objects: wine glass, person
+Relation: wine glass left of person
+Sentence: The person held a wine glass in their right hand, while their left hand was empty.
+
+Objects: white chair, blue potted plant
+Relation: white chair below blue potted plant
+Sentence: The blue potted plant was perched atop the white chair, adding a splash of color to the room.
+
+Objects: green snowboard, skateboard
+Relation: green snowboard below skateboard
+Sentence: The skateboard was perched atop the green snowboard, which was placed securely below it.
+
+Objects: white orange, green donut
+Relation: white orange below green donut
+Sentence: The green donut was perched atop the white orange, creating a delicious treat.
+
+Objects: brown vase, person
+Relation: brown vase left of person
+Sentence: The person stood to the right of the brown vase, admiring its intricate design.
+
+Objects: bottle, brown spoon
+Relation: bottle above brown spoon
+Sentence: The bottle was positioned above the brown spoon.
+
+Objects: red microwave, sink
+Relation: red microwave above sink
+Sentence: The red microwave was mounted above the sink, providing a convenient spot for quick meals.
+
+Objects: silver laptop, blue cell phone
+Relation: silver laptop right of blue cell phone
+Sentence: The blue cell phone was placed to the left of the silver laptop.
+
+Objects: cat, sheep
+Relation: cat right of sheep
+Sentence: The cat was perched on the fence to the right of the grazing sheep.
+
+Objects: bed, toilet
+Relation: bed above toilet
+Sentence: The bed was positioned above the toilet, creating a unique layout in the room.
+
+Objects: yellow orange, white broccoli
+Relation: yellow orange below white broccoli
+Sentence: The yellow orange was placed beneath the white broccoli.
+
+Objects: brown teddy bear, hair drier
+Relation: brown teddy bear right of hair drier
+Sentence: The brown teddy bear was placed to the right of the hair drier.
+
+Objects: red bed, person
+Relation: red bed left of person
+Sentence: The person lay in the center of the room, with the red bed to their left.
+
+Objects: bird, zebra
+Relation: bird above zebra
+Sentence: The bird flew gracefully above the zebra, its wings flapping in the wind.
+
+Objects: yellow wine glass, white cup
+Relation: yellow wine glass left of white cup
+Sentence: The white cup was placed to the right of the delicate yellow wine glass.
+
+Objects: black fork, knife
+Relation: black fork right of knife
+Sentence: The black fork was placed to the right of the knife on the dinner table.
+
+Objects: mouse, person
+Relation: mouse right of person
+Sentence: The person was standing to the left of the mouse.
+
+Objects: zebra, giraffe
+Relation: zebra above giraffe
+Sentence: The zebra stood tall above the giraffe, its stripes standing out against the sky.
+
+Objects: black car, silver motorcycle
+Relation: black car below silver motorcycle
+Sentence: The black car was parked beneath the silver motorcycle.
+
+Objects: red tv, person
+Relation: red tv right of person
+Sentence: The person was situated to the left of the vibrant red television.
+
+Objects: horse, zebra
+Relation: horse right of zebra
+Sentence: The horse galloped to the right of the zebra.
+
+Objects: banana, silver broccoli
+Relation: banana left of silver broccoli
+Sentence: The banana was placed to the left of the silver broccoli in the grocery store aisle.
+
+Objects: red donut, white cake
+Relation: red donut left of white cake
+Sentence: The red donut was placed to the left of the white cake, creating a colorful contrast.
+
+Objects: cat, zebra
+Relation: cat left of zebra
+Sentence: The cat cautiously stepped away from the zebra, moving to its left.
+
+Objects: black skis, person
+Relation: black skis below person
+Sentence: The person was standing on the snowy hill, with the black skis resting securely beneath them.
+
+Objects: sandwich, blue cake
+Relation: sandwich below blue cake
+Sentence: The blue cake was placed on the plate, with the sandwich tucked neatly underneath.
+
+Objects: bus, white truck
+Relation: bus above white truck
+Sentence: The bus was parked on the street above the white truck.
+
+Objects: yellow cell phone, person
+Relation: yellow cell phone right of person
+Sentence: The person had the yellow cell phone to their right.
+
+Objects: dog, sheep
+Relation: dog left of sheep
+Sentence: The dog trotted ahead of the sheep, leaving it behind on its right.
+
+Objects: red tie, person
+Relation: red tie left of person
+Sentence: The person stood in the doorway, wearing a crisp white shirt and a red tie draped casually over their left shoulder.
+
+Objects: brown mouse, cell phone
+Relation: brown mouse left of cell phone
+Sentence: The brown mouse scurried away from the cell phone, leaving it behind.
+
+Objects: black baseball bat, person
+Relation: black baseball bat left of person
+Sentence: The person held the black baseball bat in their right hand, while their left hand was empty and to the left of them.
+
+Objects: red handbag, white suitcase
+Relation: red handbag right of white suitcase
+Sentence: The white suitcase was placed to the left of the red handbag.
+
+Objects: black sports ball, white surfboard
+Relation: black sports ball left of white surfboard
+Sentence: The black sports ball was positioned to the left of the white surfboard, ready for a day of fun in the sun.
+
+Objects: white teddy bear, toothbrush
+Relation: white teddy bear above toothbrush
+Sentence: The white teddy bear was perched atop the dresser, with the toothbrush tucked away beneath it.
+
+Objects: white couch, dining table
+Relation: white couch left of dining table
+Sentence: The white couch was situated to the left of the dining table, providing a comfortable seating area for guests.
+
+Objects: sandwich, white orange
+Relation: sandwich above white orange
+Sentence: The sandwich was placed above the white orange on the plate.
+
+Objects: car, white boat
+Relation: car above white boat
+Sentence: The car drove over the white boat, its tires leaving a trail of ripples in the water.
+
+Objects: sandwich, green cake
+Relation: sandwich right of green cake
+Sentence: The sandwich was placed to the right of the green cake on the plate.
+
+Objects: oven, person
+Relation: oven right of person
+Sentence: The person was standing to the left of the oven.
+
+Objects: horse, elephant
+Relation: horse above elephant
+Sentence: The horse stood tall above the elephant.
+
+Objects: bed, yellow dining table
+Relation: bed right of yellow dining table
+Sentence: The yellow dining table was positioned to the left of the bed.
+
+Objects: red book, teddy bear
+Relation: red book left of teddy bear
+Sentence: The teddy bear was placed to the right of the red book, its soft fur contrasting with the hard cover.
+
+Objects: banana, person
+Relation: banana below person
+Sentence: The person was holding a banana in their hand, slightly lower than their waist.
+
+Objects: kite, silver baseball bat
+Relation: kite left of silver baseball bat
+Sentence: A kite was soaring in the sky to the left of the silver baseball bat.
+
+Objects: white vase, silver scissors
+Relation: white vase above silver scissors
+Sentence: The white vase was placed above the silver scissors on the shelf.
+
+Objects: bicycle, boat
+Relation: bicycle above boat
+Sentence: The bicycle was suspended in the air above the boat, its wheels spinning slowly in the breeze.
+
+Objects: cat, dog
+Relation: cat above dog
+Sentence: The cat perched atop the dog, surveying its surroundings.
+
+Objects: vase, silver scissors
+Relation: vase left of silver scissors
+Sentence: The silver scissors were placed to the right of the vase.
+
+Objects: carrot, blue donut
+Relation: carrot right of blue donut
+Sentence: The blue donut was placed to the left of the plate, with a carrot sitting proudly to its right.
+
+Objects: red handbag, silver suitcase
+Relation: red handbag below silver suitcase
+Sentence: The red handbag was tucked neatly underneath the silver suitcase.
+
+Objects: black sandwich, cake
+Relation: black sandwich below cake
+Sentence: The cake was placed atop the black sandwich.
+
+Objects: skis, white tennis racket
+Relation: skis left of white tennis racket
+Sentence: The white tennis racket was positioned to the right of the skis.
+
+Objects: skis, white baseball bat
+Relation: skis right of white baseball bat
+Sentence: The skis were placed to the right of the white baseball bat.
+
+Objects: red mouse, person
+Relation: red mouse below person
+Sentence: The person was sitting at the desk, with the red mouse at their feet.
+
+Objects: knife, bowl
+Relation: knife left of bowl
+Sentence: The bowl was placed to the right of the knife.
+
+Objects: bottle, wine glass
+Relation: bottle right of wine glass
+Sentence: The wine glass was placed to the left of the bottle, creating a visually appealing display.
+
+Objects: white oven, silver refrigerator
+Relation: white oven right of silver refrigerator
+Sentence: The silver refrigerator was positioned to the left of the white oven.
+
+Objects: motorcycle, blue truck
+Relation: motorcycle left of blue truck
+Sentence: The motorcycle was parked to the left of the blue truck.
+
+Objects: chair, brown potted plant
+Relation: chair below brown potted plant
+Sentence: The brown potted plant was perched atop the chair, its leaves swaying in the breeze.
+
+Objects: brown tv, silver laptop
+Relation: brown tv left of silver laptop
+Sentence: The brown television was placed to the left of the silver laptop.
+
+Objects: horse, giraffe
+Relation: horse right of giraffe
+Sentence: The giraffe stood tall and proud, with the horse grazing peacefully to its right.
+
+Objects: potted plant, toilet
+Relation: potted plant right of toilet
+Sentence: The potted plant was placed to the right of the toilet, adding a touch of greenery to the room.
+
+Objects: red surfboard, person
+Relation: red surfboard below person
+Sentence: The person was standing on the red surfboard.
+
+Objects: apple, silver donut
+Relation: apple above silver donut
+Sentence: The apple was placed above the silver donut.
+
+Objects: black train, boat
+Relation: black train right of boat
+Sentence: The boat sailed along the river, with the black train chugging along its left side.
+
+Objects: car, silver truck
+Relation: car below silver truck
+Sentence: The silver truck was parked in the lot, with the car parked neatly underneath it.
+
+Objects: hot dog, pizza
+Relation: hot dog right of pizza
+Sentence: The pizza was placed to the left of the hot dog.
+
+Objects: sheep, bear
+Relation: sheep right of bear
+Sentence: The bear was standing to the left of the sheep, which was grazing on the grass to its right.
+
+Objects: red sandwich, hot dog
+Relation: red sandwich above hot dog
+Sentence: The red sandwich was placed atop the hot dog.
+
+Objects: black motorcycle, white bus
+Relation: black motorcycle below white bus
+Sentence: The white bus drove past the black motorcycle, which was positioned lower on the road.
+
+Objects: book, scissors
+Relation: book left of scissors
+Sentence: The book was placed to the left of the scissors, ready to be used for any paper-cutting needs.
+
+Objects: black oven, person
+Relation: black oven left of person
+Sentence: The person stood to the right of the black oven.
+
+Objects: yellow airplane, green boat
+Relation: yellow airplane left of green boat
+Sentence: The yellow airplane flew gracefully to the left of the green boat, its wings glinting in the sunlight.
+
+Objects: red motorcycle, bus
+Relation: red motorcycle right of bus
+Sentence: The red motorcycle drove past the bus on its right.
+
+Objects: red potted plant, toilet
+Relation: red potted plant right of toilet
+Sentence: The toilet is situated to the left of the red potted plant.
+
+Objects: clock, brown scissors
+Relation: clock above brown scissors
+Sentence: The clock was placed above the brown scissors on the table.
+
+Objects: red apple, brown hot dog
+Relation: red apple above brown hot dog
+Sentence: The red apple was perched atop the brown hot dog.
+
+Objects: cow, giraffe
+Relation: cow right of giraffe
+Sentence: The giraffe stood tall while the cow grazed to its right.
+
+Objects: baseball bat, blue tennis racket
+Relation: baseball bat above blue tennis racket
+Sentence: The baseball bat is positioned above the blue tennis racket.
+
+Objects: brown wine glass, blue bowl
+Relation: brown wine glass left of blue bowl
+Sentence: The brown wine glass was placed to the left of the blue bowl, creating a visually appealing contrast of colors.
+
+Objects: broccoli, blue hot dog
+Relation: broccoli right of blue hot dog
+Sentence: The blue hot dog was placed on the plate to the left of the broccoli.
+
+Objects: oven, toaster
+Relation: oven below toaster
+Sentence: The toaster was perched on top of the oven, ready to toast some delicious treats.
+
+Objects: oven, refrigerator
+Relation: oven left of refrigerator
+Sentence: The oven was placed to the left of the refrigerator, creating a convenient kitchen layout.
+
+Objects: tv, laptop
+Relation: tv below laptop
+Sentence: The laptop was perched atop the entertainment center, with the tv placed securely below it.
+
+Objects: black banana, yellow pizza
+Relation: black banana above yellow pizza
+Sentence: The black banana was perched above the yellow pizza.
+
+Objects: red sandwich, green broccoli
+Relation: red sandwich left of green broccoli
+Sentence: The red sandwich was placed to the left of the green broccoli.
+
+Objects: white baseball glove, skateboard
+Relation: white baseball glove left of skateboard
+Sentence: The skateboard was propped up against the wall, with the white baseball glove resting to its right.
+
+Objects: sports ball, brown baseball bat
+Relation: sports ball left of brown baseball bat
+Sentence: The brown baseball bat was positioned to the right of the sports ball.
+
+Objects: black backpack, person
+Relation: black backpack left of person
+Sentence: The person was walking with a black backpack slung over their left shoulder.
+
+Objects: hot dog, person
+Relation: hot dog right of person
+Sentence: The person held the hot dog in their left hand, while their right hand was free.
+
+Objects: book, scissors
+Relation: book below scissors
+Sentence: The scissors were placed on top of the book, ready to be used.
+
+Objects: banana, donut
+Relation: banana left of donut
+Sentence: The donut was placed to the right of the banana.
+
+Objects: broccoli, cake
+Relation: broccoli left of cake
+Sentence: The plate was filled with a delicious cake, with a side of broccoli to the left.
+
+Objects: black toaster, yellow refrigerator
+Relation: black toaster above yellow refrigerator
+Sentence: The black toaster was positioned above the yellow refrigerator.
+
+Objects: red airplane, train
+Relation: red airplane right of train
+Sentence: The red airplane flew in the sky to the right of the speeding train.
+
+Objects: frisbee, surfboard
+Relation: frisbee right of surfboard
+Sentence: The frisbee flew past the surfboard to its right.
+
+Objects: elephant, person
+Relation: elephant right of person
+Sentence: The person stood in awe of the elephant, which was positioned to their right.
+
+Objects: black mouse, remote
+Relation: black mouse left of remote
+Sentence: A black mouse scurried to the left of the remote, its tiny feet making no sound.
+
+Objects: umbrella, blue handbag
+Relation: umbrella left of blue handbag
+Sentence: The blue handbag was accompanied by an umbrella to its left, providing a shield from the rain.
+
+Objects: yellow tv, mouse
+Relation: yellow tv above mouse
+Sentence: The yellow television was perched atop the entertainment center, with the mouse placed safely above it.
+
+Objects: silver orange, donut
+Relation: silver orange right of donut
+Sentence: The donut was placed on the plate, with a silver orange gleaming to its right.
+
+Objects: skis, sports ball, person
+Relation: sports ball right of person
+Sentence: The person stands with a sports ball to their right, while a pair of skis rests nearby.
+
+Objects: apple, yellow carrot, pizza
+Relation: apple below yellow carrot
+Sentence: The apple is placed beneath the yellow carrot, while the pizza is nearby.
+
+Objects: cat, dog, horse
+Relation: dog left of horse
+Sentence: The dog is positioned to the left of the horse, while the cat stands nearby.
+
+Objects: cow, zebra, giraffe
+Relation: cow below giraffe
+Sentence: The cow is situated beneath the giraffe, while the zebra stands between them.
+
+Objects: toaster, brown refrigerator, person
+Relation: brown refrigerator right of person
+Sentence: The person stands to the left of the brown refrigerator, with a toaster nearby.
+
+Objects: vase, brown teddy bear, person
+Relation: vase above person
+Sentence: A vase is placed above the person, with a brown teddy bear nearby.
+
+Objects: tv, remote, person
+Relation: tv right of remote
+Sentence: The person is holding the remote in their hand, with the tv to the right of it.
+
+Objects: sports ball, black skateboard, surfboard
+Relation: black skateboard left of surfboard
+Sentence: The black skateboard is positioned to the left of the surfboard, with a sports ball nearby.
+
+Objects: sink, brown refrigerator, person
+Relation: brown refrigerator below person
+Sentence: The person stands above the brown refrigerator, which is placed beneath the sink.
+
+Objects: dog, horse, bear
+Relation: dog right of horse
+Sentence: The dog stood to the right of the horse, while the bear watched from a distance.
+
+Objects: cup, knife, silver spoon
+Relation: cup below knife
+Sentence: The cup is placed beneath the knife, with a silver spoon beside it.
+
+Objects: red cup, white fork, person
+Relation: red cup below white fork
+Sentence: A person held a white fork in their hand, with a red cup placed beneath it.
+
+Objects: wine glass, silver knife, person
+Relation: wine glass right of person
+Sentence: A person holds a wine glass in their right hand.
+
+Objects: wine glass, cup, knife
+Relation: cup below knife
+Sentence: A wine glass and a cup are placed on the table, with the cup situated beneath the knife.
+
+Objects: vase, white hair drier, silver toothbrush
+Relation: white hair drier left of silver toothbrush
+Sentence: The white hair drier is located to the left of the silver toothbrush, while the vase stands nearby.
+
+Objects: couch, yellow potted plant, toilet
+Relation: yellow potted plant above toilet
+Sentence: A yellow potted plant is perched atop the toilet.
+
+Objects: white snowboard, brown tennis racket, person
+Relation: white snowboard above person
+Sentence: The person is standing beneath the white snowboard, while the brown tennis racket is nearby.
+
+Objects: bird, cat, zebra
+Relation: cat right of zebra
+Sentence: The cat is positioned to the right of the zebra, with a bird nearby.
+
+Objects: red bus, white truck, person
+Relation: white truck below person
+Sentence: The person stands above the white truck, which is located beneath the red bus.
+
+Objects: black cup, brown fork, knife
+Relation: black cup right of knife
+Sentence: The black cup is placed to the right of the knife, with a brown fork in between them.
+
+Objects: black book, vase, person
+Relation: black book below person
+Sentence: The person held a black book in their hands, with a vase placed beneath it.
+
+Objects: red chair, black dining table, silver toilet
+Relation: black dining table right of silver toilet
+Sentence: The black dining table is situated to the right of the silver toilet, while the red chair is placed nearby.
+
+Objects: black tv, silver mouse, remote
+Relation: black tv right of silver mouse
+Sentence: The black tv is placed to the right of the silver mouse, with the remote nearby.
+
+Objects: red car, yellow train, person
+Relation: red car below yellow train
+Sentence: The red car is positioned beneath the yellow train, with a person standing nearby.
+
+Objects: black couch, potted plant, person
+Relation: potted plant below person
+Sentence: A person stands tall above a potted plant, which is placed on the black couch.
+
+Objects: clock, vase, toothbrush
+Relation: vase left of toothbrush
+Sentence: The vase is situated to the left of the toothbrush, with the clock nearby.
+
+Objects: black apple, orange, brown donut
+Relation: black apple below brown donut
+Sentence: The brown donut is perched atop the black apple, which rests below.
+
+Objects: airplane, brown truck, green boat
+Relation: airplane right of brown truck
+Sentence: An airplane is positioned to the right of the brown truck, while the green boat is nearby.
+
+Objects: red orange, broccoli, person
+Relation: broccoli above person
+Sentence: The person is standing beneath a stalk of broccoli, with a red orange nearby.
+
+Objects: snowboard, baseball bat, person
+Relation: snowboard left of baseball bat
+Sentence: A snowboard is positioned to the left of the baseball bat, while a person stands nearby.
+
+Objects: airplane, bus, blue boat
+Relation: airplane left of blue boat
+Sentence: An airplane is positioned to the left of the blue boat.
+
+Objects: potted plant, bed, blue toilet
+Relation: potted plant left of blue toilet
+Sentence: A potted plant stands to the left of the blue toilet, with a bed nearby.
+
+Objects: frisbee, sports ball, baseball glove
+Relation: frisbee right of sports ball
+Sentence: The frisbee is placed to the right of the sports ball, with a baseball glove nearby.
+
+Objects: vase, white hair drier, person
+Relation: white hair drier right of person
+Sentence: The person was standing with a white hair drier to their right, and a vase nearby.
+
+Objects: frisbee, kite, person
+Relation: frisbee left of kite
+Sentence: The frisbee is located to the left of the kite, while the person stands nearby.
+
+Objects: sheep, cow, person
+Relation: sheep right of cow
+Sentence: The cow grazed peacefully, with a sheep standing to its right. A person watched nearby.
+
+Objects: white sandwich, silver pizza, blue cake
+Relation: silver pizza right of blue cake
+Sentence: A white sandwich, a silver pizza, and a blue cake are arranged in a line, with the pizza to the right of the cake.
+
+Objects: brown clock, silver teddy bear, toothbrush
+Relation: brown clock right of silver teddy bear
+Sentence: The brown clock is placed to the right of the silver teddy bear, while the toothbrush is situated elsewhere.
+
+Objects: red microwave, oven, green sink
+Relation: red microwave left of green sink
+Sentence: The red microwave is positioned to the left of the green sink.
+
+Objects: sandwich, black orange, green cake
+Relation: black orange right of green cake
+Sentence: A green cake is placed on the table, with a black orange to its right.
+
+Objects: truck, brown boat, person
+Relation: truck below brown boat
+Sentence: The truck is situated beneath the brown boat.
+
+Objects: black broccoli, yellow hot dog, silver pizza
+Relation: yellow hot dog left of silver pizza
+Sentence: A yellow hot dog is placed to the left of a silver pizza, while a black broccoli stands nearby.
+
+Objects: carrot, yellow hot dog, cake
+Relation: yellow hot dog left of cake
+Sentence: A carrot is placed between a yellow hot dog and a cake, with the hot dog to the left of the cake.
+
+Objects: broccoli, yellow cake, person
+Relation: broccoli left of yellow cake
+Sentence: The person had a plate of broccoli to the left of the yellow cake.
+
+Objects: knife, spoon, person
+Relation: knife above person
+Sentence: The person is standing beneath a knife that is suspended in the air.
+
+Objects: car, silver airplane, green truck
+Relation: car right of silver airplane
+Sentence: The car is positioned to the right of the silver airplane, with a green truck nearby.
+
+Objects: baseball bat, yellow skateboard, silver surfboard
+Relation: baseball bat above silver surfboard
+Sentence: The baseball bat is perched atop the silver surfboard, while the yellow skateboard lies nearby.
+
+Objects: yellow chair, couch, toilet
+Relation: couch right of toilet
+Sentence: The yellow chair is placed in the room, with a couch to the right of the toilet.
+
+Objects: bottle, green knife, blue spoon
+Relation: bottle right of blue spoon
+Sentence: The bottle is placed to the right of the blue spoon, with a green knife nearby.
+
+Objects: yellow baseball bat, silver baseball glove, person
+Relation: yellow baseball bat right of person
+Sentence: The person held a silver baseball glove in their hand, with a yellow baseball bat to their right.
+
+Objects: bicycle, car, blue boat
+Relation: car right of blue boat, bicycle left of blue boat
+Sentence: A blue boat was parked between a car to its right and a bicycle to its left.
+
+Objects: white baseball bat, surfboard, person
+Relation: white baseball bat left of surfboard, white baseball bat right of person
+Sentence: A white baseball bat is positioned to the left of the surfboard and to the right of the person.
+
+Objects: horse, sheep, person
+Relation: sheep above person, horse above sheep
+Sentence: The sheep stands above the person, and the horse is positioned above the sheep.
+
+Objects: cat, dog, horse
+Relation: cat below dog, cat below horse
+Sentence: The cat is positioned beneath both the dog and the horse.
+
+Objects: red teddy bear, toothbrush, person
+Relation: red teddy bear right of toothbrush, toothbrush below person
+Sentence: The person held a toothbrush in their hand, with a red teddy bear to its right.
+
+Objects: red umbrella, black handbag, suitcase
+Relation: black handbag right of suitcase, red umbrella left of suitcase
+Sentence: The black handbag is situated to the right of the suitcase, with a red umbrella placed to the left of it.
+
+Objects: yellow couch, potted plant, dining table
+Relation: potted plant above dining table, yellow couch below potted plant
+Sentence: A potted plant sits atop the dining table, with a yellow couch placed beneath it.
+
+Objects: banana, black hot dog, white pizza
+Relation: banana left of white pizza, black hot dog above white pizza
+Sentence: The banana is positioned to the left of the white pizza and a black hot dog is placed above it.
+
+Objects: bicycle, motorcycle, person
+Relation: bicycle right of motorcycle, bicycle above person
+Sentence: A motorcycle was parked to the left of a bicycle, with the bicycle hovering above a person.
+
+Objects: dog, horse, elephant
+Relation: dog left of horse, horse right of elephant
+Sentence: The dog is positioned to the left of the horse, while the horse stands to the right of the elephant.
+
+Objects: chair, dining table, green toilet
+Relation: chair right of green toilet, chair below dining table
+Sentence: The chair is situated to the right of the green toilet and below the dining table.
+
+Objects: bottle, fork, spoon
+Relation: bottle below spoon, bottle below fork
+Sentence: The bottle was placed beneath both the spoon and the fork.
+
+Objects: scissors, hair drier, toothbrush
+Relation: hair drier above toothbrush, scissors above toothbrush
+Sentence: The hair drier is placed above the toothbrush, and the scissors are positioned above it.
+
+Objects: white toaster, sink, refrigerator
+Relation: sink above refrigerator, white toaster right of sink
+Sentence: The sink is positioned above the refrigerator, with a white toaster to its right.
+
+Objects: horse, cow, giraffe
+Relation: horse right of giraffe, horse below cow
+Sentence: The horse stands to the right of the giraffe and is positioned below the cow.
+
+Objects: frisbee, baseball glove, blue skateboard
+Relation: frisbee left of baseball glove, baseball glove right of blue skateboard
+Sentence: The frisbee is located to the left of the baseball glove, while the glove is positioned to the right of the blue skateboard.
+
+Objects: wine glass, brown spoon, person
+Relation: brown spoon right of person, wine glass above person
+Sentence: The person holds a brown spoon to their right, and a wine glass is suspended above them.
+
+Objects: white banana, orange, silver donut
+Relation: white banana above orange, orange below silver donut
+Sentence: The white banana is positioned above the orange, which is located beneath the silver donut.
+
+Objects: yellow book, white scissors, teddy bear
+Relation: yellow book right of teddy bear, white scissors below teddy bear
+Sentence: The yellow book is placed to the right of the teddy bear, while the white scissors rest beneath it.
+
+Objects: cup, fork, spoon
+Relation: cup below fork, fork below spoon
+Sentence: The cup is placed beneath the fork, which is in turn below the spoon.
+
+Objects: wine glass, brown cup, bowl
+Relation: wine glass right of bowl, brown cup right of bowl
+Sentence: The bowl is flanked by a wine glass to its right and a brown cup to its right.
+
+Objects: train, truck, green boat
+Relation: truck below green boat, train above green boat
+Sentence: A truck was parked below the green boat, while a train chugged along above it.
+
+Objects: white vase, teddy bear, toothbrush
+Relation: white vase above teddy bear, teddy bear right of toothbrush
+Sentence: The white vase is perched atop the teddy bear, while the teddy bear is placed to the right of the toothbrush.
+
+Objects: bird, cat, giraffe
+Relation: bird right of giraffe, cat left of giraffe
+Sentence: The bird flew to the right of the giraffe, while the cat stayed to the left of it.
+
+Objects: bird, elephant, person
+Relation: elephant right of person, bird below person
+Sentence: A person stands in the middle, with an elephant to their right and a bird at their feet.
+
+Objects: apple, silver broccoli, blue cake
+Relation: apple right of silver broccoli, silver broccoli right of blue cake
+Sentence: The apple is located to the right of the silver broccoli, which is in turn situated to the right of the blue cake.
+
+Objects: black umbrella, tie, person
+Relation: tie above person, black umbrella right of tie
+Sentence: The person was wearing a tie, with a black umbrella held to the right of it.
+
+Objects: horse, elephant, giraffe
+Relation: horse right of elephant, elephant right of giraffe
+Sentence: The horse stands to the right of the elephant, which is in turn positioned to the right of the giraffe.
+
+Objects: black banana, yellow apple, sandwich
+Relation: black banana left of yellow apple, yellow apple left of sandwich
+Sentence: The black banana is positioned to the left of the yellow apple, which is in turn placed to the left of the sandwich.
+
+Objects: black tv, yellow mouse, green cell phone
+Relation: black tv below green cell phone, black tv below yellow mouse
+Sentence: The black tv is situated beneath both the green cell phone and the yellow mouse.
+
+Objects: chair, yellow dining table, toilet
+Relation: yellow dining table above toilet, chair below yellow dining table
+Sentence: The yellow dining table is positioned above the toilet, with a chair placed beneath it.
+
+Objects: sandwich, black pizza, donut
+Relation: black pizza right of donut, sandwich left of donut
+Sentence: The black pizza is placed to the right of the donut, and the sandwich is situated to the left of it.
+
+Objects: dog, cow, zebra
+Relation: cow left of zebra, dog left of cow
+Sentence: The cow is positioned to the left of the zebra, with the dog standing to the left of the cow.
+
+Objects: red sandwich, broccoli, cake
+Relation: red sandwich left of broccoli, red sandwich right of cake
+Sentence: The red sandwich is situated between the broccoli and the cake, with the broccoli to the left and the cake to the right.
+
+Objects: dog, horse, elephant
+Relation: horse right of elephant, dog below elephant
+Sentence: The elephant stands tall, with a horse to its right and a dog at its feet.
+
+Objects: apple, broccoli, blue carrot
+Relation: broccoli right of blue carrot, apple above broccoli
+Sentence: A blue carrot was placed to the right of a broccoli stalk, with an apple perched atop it.
+
+Objects: elephant, bear, giraffe
+Relation: elephant left of bear, elephant left of giraffe
+Sentence: The elephant stood to the left of both the bear and the giraffe.
+
+Objects: red book, yellow teddy bear, person
+Relation: red book right of yellow teddy bear, red book below person
+Sentence: A person stands above a yellow teddy bear, with a red book placed to the right of it.
+
+Objects: bus, white train, truck
+Relation: bus right of white train, white train left of truck
+Sentence: The white train is positioned to the left of the truck, while the bus is located to the right of the train.
+
+Objects: handbag, black tie, person
+Relation: black tie right of person, handbag above black tie
+Sentence: The person is wearing a black tie to their right and a handbag is placed above it.
+
+Objects: yellow skis, sports ball, person
+Relation: sports ball left of person, yellow skis below sports ball
+Sentence: A person stands with a sports ball to their left, and a pair of yellow skis resting beneath it.
+
+Objects: red bicycle, brown bus, person
+Relation: red bicycle left of person, brown bus right of person
+Sentence: The person stands between the red bicycle to their left and the brown bus to their right.
+
+Objects: clock, brown scissors, teddy bear
+Relation: brown scissors above teddy bear, clock left of brown scissors
+Sentence: The brown scissors are positioned above the teddy bear, with the clock to the left of them.
+
+Objects: black apple, yellow pizza, donut
+Relation: black apple right of donut, yellow pizza below donut
+Sentence: The black apple is placed to the right of the donut, with the yellow pizza lying beneath it.
+
+Objects: black motorcycle, white airplane, bus
+Relation: white airplane left of bus, black motorcycle above bus
+Sentence: The white airplane is positioned to the left of the bus, while the black motorcycle hovers above it.
+
+Objects: clock, vase, scissors
+Relation: vase right of scissors, clock right of vase
+Sentence: The scissors are positioned to the left, followed by a vase to its right, and a clock to the right of the vase.
+
+Objects: red motorcycle, silver airplane, train
+Relation: red motorcycle left of train, red motorcycle left of silver airplane
+Sentence: A red motorcycle is positioned to the left of both the train and the silver airplane.
+
+Objects: yellow bicycle, car, green truck
+Relation: car above green truck, yellow bicycle right of car
+Sentence: The car was parked above the green truck, with a yellow bicycle situated to its right.
+
+Objects: wine glass, cup, person
+Relation: wine glass above cup, cup below person
+Sentence: The wine glass is placed above the cup which is situated below the person.
+
+Objects: scissors, teddy bear, hair drier
+Relation: scissors above teddy bear, teddy bear below hair drier
+Sentence: The scissors are placed above the teddy bear, which is situated beneath the hair drier.
+
+Objects: red sandwich, orange, pizza, person
+Relation: red sandwich right of person, orange above person
+Sentence: A person stands with a red sandwich to their right, and an orange hovering above them. A pizza is nearby, completing the scene.
+
+Objects: black bicycle, truck, boat, person
+Relation: black bicycle below person, boat right of person
+Sentence: The person stood between the black bicycle below them and the boat to their right. The truck was parked nearby.
+
+Objects: red snowboard, black sports ball, baseball glove, person
+Relation: red snowboard left of black sports ball, red snowboard left of baseball glove
+Sentence: The person holds a baseball glove in one hand and a red snowboard in the other, with the black sports ball to the right of both.
+
+Objects: red tv, remote, brown keyboard, person
+Relation: brown keyboard above person, remote below person
+Sentence: The person is seated in front of a red tv, with a brown keyboard placed above them and a remote in their hand below them.
+
+Objects: black skis, white kite, surfboard, tennis racket
+Relation: black skis above white kite, surfboard right of tennis racket
+Sentence: The black skis are positioned above the white kite, while the surfboard is to the right of the tennis racket.
+
+Objects: red backpack, silver umbrella, green handbag, blue suitcase
+Relation: green handbag below blue suitcase, silver umbrella right of green handbag
+Sentence: The blue suitcase was placed on the ground, with a green handbag resting below it. To the right of the handbag, a silver umbrella was propped up, while a red backpack was nearby.
+
+Objects: sheep, bear, giraffe, person
+Relation: bear left of person, giraffe left of person
+Sentence: The person stands between the bear and the giraffe, with the bear to the left and the giraffe to the left of the person. The sheep is off to the side.
+
+Objects: black couch, potted plant, brown toilet, person
+Relation: black couch below brown toilet, brown toilet above person
+Sentence: A black couch is situated below a brown toilet, which is above a person, while a potted plant stands nearby.
+
+Objects: apple, white hot dog, pizza, donut
+Relation: white hot dog right of pizza, apple above pizza
+Sentence: The pizza is flanked by a white hot dog to the right and an apple above it, while a donut sits nearby.
+
+Objects: microwave, oven, brown toaster, person
+Relation: oven below brown toaster, microwave above person
+Sentence: The person stands in front of the microwave, which is positioned above them. Below the microwave is a brown toaster, and beneath that is an oven.
+
+Objects: car, motorcycle, boat, person
+Relation: car below motorcycle, motorcycle above boat
+Sentence: The car is situated beneath the motorcycle, which is above the boat, while a person stands nearby.
+
+Objects: black bicycle, yellow motorcycle, bus, blue train
+Relation: black bicycle above yellow motorcycle, yellow motorcycle above bus
+Sentence: The black bicycle is perched atop the yellow motorcycle, which is in turn above the bus, while the blue train stands alone.
+
+Objects: clock, vase, brown scissors, person
+Relation: vase above brown scissors, clock right of vase
+Sentence: The person observed a vase placed above a pair of brown scissors, with a clock to the right of the vase.
+
+Objects: black car, train, brown truck, boat
+Relation: train below boat, train above brown truck
+Sentence: The train is situated below the boat and above the brown truck, while the black car and boat remain stationary.
+
+Objects: black skis, yellow kite, baseball bat, tennis racket
+Relation: baseball bat above tennis racket, black skis above tennis racket
+Sentence: The black skis were propped up above the tennis racket, with the yellow kite soaring above and the baseball bat resting atop the racket.
+
+Objects: banana, brown apple, silver donut, person
+Relation: silver donut left of person, banana left of brown apple
+Sentence: The person stands to the left of a silver donut, while the banana is placed to the left of a brown apple.
+
+Objects: red bicycle, yellow motorcycle, airplane, blue bus
+Relation: red bicycle left of airplane, red bicycle above blue bus
+Sentence: The red bicycle was to the left of the airplane, and it was positioned above the blue bus. The yellow motorcycle was parked nearby.
+
+Objects: car, train, silver truck, boat
+Relation: car above boat, train below silver truck
+Sentence: The car was seen hovering above the boat, while the train was observed below the silver truck.
+
+Objects: dog, horse, cow, giraffe
+Relation: dog below giraffe, horse left of giraffe
+Sentence: The giraffe stood tall, with the dog below it and the horse to its left. The cow was also present in the scene.
+
+Objects: frisbee, yellow baseball glove, surfboard, tennis racket
+Relation: frisbee right of surfboard, yellow baseball glove left of surfboard
+Sentence: A frisbee is to the right of the surfboard, while a yellow baseball glove is to the left of it. Further away, a tennis racket lies on the ground.
+
+Objects: bottle, yellow fork, knife, bowl
+Relation: bottle above yellow fork, bottle above knife
+Sentence: The bottle is placed above the yellow fork and the knife, with the bowl sitting below them.
+
+Objects: black car, train, green truck, person
+Relation: green truck above person, train below green truck
+Sentence: A person stands beneath a green truck, which is above a train, while a black car is parked nearby.
+
+Objects: white clock, brown vase, scissors, blue hair drier
+Relation: brown vase above scissors, white clock above blue hair drier
+Sentence: The white clock was hung above the blue hair drier, while a brown vase was placed above the scissors.
+
+Objects: umbrella, black tie, suitcase, person
+Relation: black tie right of person, umbrella left of black tie
+Sentence: The person was dressed in a smart black tie, with an umbrella tucked to the left of it. A suitcase was placed nearby, ready for the journey ahead.
+
+Objects: car, yellow airplane, brown bus, boat
+Relation: yellow airplane right of boat, car left of boat
+Sentence: A yellow airplane is to the right of a boat, while a car is to the left of it. A brown bus is parked nearby.
+
+Objects: bird, cow, elephant, zebra
+Relation: cow above elephant, bird left of elephant
+Sentence: The cow stands above the elephant, while a bird is to the left of the elephant. The zebra watches from a distance.
+
+Objects: bird, cat, dog, horse
+Relation: cat below horse, bird below dog
+Sentence: The cat is situated below the horse, while the bird is below the dog, creating an interesting scene.
+
+Objects: banana, yellow sandwich, pizza, blue cake
+Relation: banana right of pizza, pizza below blue cake
+Sentence: The banana is to the right of the pizza, which is situated below the blue cake, while the yellow sandwich is nearby.
+
+Objects: black baseball bat, yellow skateboard, silver surfboard, person
+Relation: yellow skateboard below person, silver surfboard right of person
+Sentence: The person stands tall, with a yellow skateboard below them and a silver surfboard to their right. A black baseball bat lies nearby, ready to be used.
+
+Objects: fork, black knife, bowl, person
+Relation: black knife right of person, fork above bowl
+Sentence: The person held a black knife in their right hand, while a fork was placed above a bowl.
+
+Objects: red bicycle, car, motorcycle, blue bus
+Relation: red bicycle above car, red bicycle right of blue bus
+Sentence: The red bicycle is placed above the car, with its right side next to the blue bus. The motorcycle and bus are parked nearby.
+
+Objects: red chair, couch, toilet, person
+Relation: red chair right of toilet, toilet left of person
+Sentence: The person stands to the left of the toilet, while a red chair is to the right of it. A couch is placed nearby, providing a comfortable seating option.
+
+Objects: black bottle, wine glass, bowl, person
+Relation: black bottle above bowl, black bottle below wine glass
+Sentence: The person holds a wine glass in one hand, with a black bottle placed below it and above a bowl.
+
+Objects: bottle, white wine glass, fork, silver knife
+Relation: bottle below white wine glass, white wine glass right of silver knife
+Sentence: The bottle is placed below the white wine glass, with the silver knife to the right of it. A fork is also present, completing the setting.
+
+Objects: black sandwich, yellow broccoli, carrot, blue hot dog
+Relation: yellow broccoli below carrot, black sandwich above carrot
+Sentence: The yellow broccoli is placed below the carrot, while the black sandwich is situated above it. A blue hot dog is also present.
+
+Objects: couch, black potted plant, toilet, person
+Relation: couch right of black potted plant, couch left of toilet
+Sentence: A person stands between a black potted plant to the right and a toilet to the left, with a comfortable couch in between.
+
+Objects: banana, carrot, hot dog, pizza
+Relation: banana above pizza, hot dog left of pizza
+Sentence: The banana is placed above the pizza, while a hot dog is to the left of it. A carrot is also present in the scene.
+
+Objects: red kite, black baseball glove, white skateboard, silver tennis racket
+Relation: white skateboard right of silver tennis racket, red kite right of silver tennis racket
+Sentence: The silver tennis racket is flanked by a white skateboard to its right and a red kite to its right, with a black baseball glove nearby.
+
+Objects: banana, orange, hot dog, blue donut
+Relation: banana left of hot dog, banana above blue donut
+Sentence: The banana is placed to the left of the hot dog, while it is also above the blue donut. An orange sits nearby.
+
+Objects: dog, horse, sheep, person
+Relation: dog left of horse, horse right of person
+Sentence: The person was flanked by a horse to the right and a dog to the left, with the horse standing between them.
+
+Objects: black microwave, white toaster, refrigerator, person
+Relation: black microwave right of person, white toaster below person
+Sentence: The person stands between the black microwave to their right and the white toaster below them, with the refrigerator nearby.
+
+Objects: oven, white toaster, brown sink, green refrigerator
+Relation: brown sink left of green refrigerator, white toaster below brown sink
+Sentence: The brown sink was situated to the left of the green refrigerator, with the white toaster placed below the sink.
+
+Objects: broccoli, carrot, hot dog, blue cake
+Relation: carrot left of blue cake, hot dog below blue cake
+Sentence: The carrot is placed to the left of the blue cake, with the hot dog situated beneath it. Broccoli is also present in the scene.
+
+Objects: microwave, silver oven, green sink, blue refrigerator
+Relation: green sink right of blue refrigerator, microwave above silver oven
+Sentence: The kitchen is arranged with a green sink to the right of a blue refrigerator, and a microwave is placed above a silver oven.
+
+Objects: bottle, brown knife, spoon, blue bowl
+Relation: brown knife below spoon, bottle right of spoon
+Sentence: The spoon was placed above the brown knife, with the bottle to the right of the spoon and the blue bowl below the knife.
+
+Objects: laptop, remote, keyboard, person
+Relation: remote right of person, remote right of keyboard
+Sentence: The person is seated with a laptop in front of them, and a remote and keyboard to their right. The remote is placed right of the keyboard.
+
+Objects: red chair, black couch, green dining table, person
+Relation: black couch right of green dining table, red chair above black couch
+Sentence: The green dining table is flanked by a black couch to the right and a red chair above it, while a person stands nearby.
+
+Objects: black carrot, hot dog, pizza, donut
+Relation: hot dog below pizza, black carrot above pizza
+Sentence: The hot dog is placed below the pizza, while a black carrot is situated above it, and a donut sits nearby.
+
+Objects: cat, horse, cow, zebra
+Relation: cat above horse, cat above cow
+Sentence: The cat is perched atop the horse and cow, surveying the scene below.
+
+Objects: frisbee, snowboard, surfboard, person
+Relation: snowboard above person, snowboard left of surfboard
+Sentence: The person holds a frisbee in their hand, while a snowboard is positioned above them and to the left of a surfboard.
+
+Objects: couch, bed, green toilet, person
+Relation: bed right of person, couch below person, bed above green toilet
+Sentence: The person is situated between the bed and the couch, with the bed to the right and the couch below. The bed is also placed above the green toilet.
+
+Objects: book, vase, silver hair drier, person
+Relation: book left of silver hair drier, vase right of silver hair drier, book above vase
+Sentence: A book is placed to the left of the silver hair drier, while a vase is to the right of it. The book is also above the vase, and a person stands nearby.
+
+Objects: red couch, yellow dining table, toilet, person
+Relation: toilet left of person, red couch below person, red couch right of yellow dining table
+Sentence: The person stands to the left of the toilet, with the red couch beneath them and to the right of the yellow dining table.
+
+Objects: sports ball, yellow baseball bat, tennis racket, person
+Relation: tennis racket left of person, sports ball right of person, sports ball below yellow baseball bat
+Sentence: The person held a tennis racket to the left, while a sports ball was to the right. The sports ball was placed below a yellow baseball bat.
+
+Objects: yellow apple, orange, silver donut, cake
+Relation: yellow apple left of silver donut, orange below cake, yellow apple right of orange
+Sentence: The yellow apple was placed to the left of the silver donut, while the orange was situated below the cake. The yellow apple was also to the right of the orange.
+
+Objects: book, clock, scissors, toothbrush
+Relation: clock below scissors, book above scissors, book right of toothbrush
+Sentence: The clock sits below the scissors, with the book placed above them and to the right of the toothbrush.
+
+Objects: black potted plant, bed, toilet, person
+Relation: bed left of person, bed above toilet, toilet below person
+Sentence: The person was lying on the bed to the left, which was positioned above the toilet. Below the person was a black potted plant.
+
+Objects: cat, sheep, cow, person
+Relation: cat left of sheep, cat right of cow, cow above person
+Sentence: The person was surrounded by animals, with a cow standing above them and a cat to the left of a sheep. The cat was also to the right of the cow.
+
+Objects: sports ball, baseball glove, surfboard, person
+Relation: sports ball below surfboard, baseball glove right of person, sports ball left of baseball glove
+Sentence: The sports ball is situated below the surfboard, while a baseball glove is to the right of the person. The sports ball is also to the left of the baseball glove.
+
+Objects: black laptop, white mouse, remote, blue cell phone
+Relation: black laptop below white mouse, black laptop right of blue cell phone, black laptop above remote
+Sentence: The black laptop was placed below the white mouse, to the right of the blue cell phone, and above the remote.
+
+Objects: bicycle, airplane, train, person
+Relation: bicycle below airplane, airplane right of person, airplane above train
+Sentence: The bicycle is situated below the airplane, which is to the right of the person and above the train, while the person observes the scene.
+
+Objects: black apple, broccoli, brown donut, person
+Relation: black apple below broccoli, brown donut right of person, broccoli left of person
+Sentence: The person stood between the broccoli and the brown donut, with the black apple resting below the broccoli and the donut to the right.
+
+Objects: cat, dog, sheep, bear
+Relation: sheep left of bear, cat above sheep, dog right of sheep
+Sentence: The sheep is positioned to the left of the bear, with the cat perched above it and the dog standing to the right.
+
+Objects: red teddy bear, yellow hair drier, white toothbrush, person
+Relation: yellow hair drier right of white toothbrush, red teddy bear left of yellow hair drier, white toothbrush above person
+Sentence: The yellow hair drier is positioned to the right of the white toothbrush, while a red teddy bear is to the left of it. The white toothbrush is held above the person.
+
+Objects: microwave, oven, silver toaster, person
+Relation: oven above silver toaster, oven right of person, microwave left of oven
+Sentence: The oven is placed above the silver toaster, with the person standing to the right and the microwave to the left of the oven.
+
+Objects: sports ball, brown skateboard, surfboard, tennis racket
+Relation: surfboard below tennis racket, brown skateboard right of tennis racket, brown skateboard above surfboard
+Sentence: The surfboard is situated beneath the tennis racket, with the brown skateboard to the right and above the surfboard, and a sports ball nearby.
+
+Objects: frisbee, white kite, surfboard, green tennis racket
+Relation: frisbee above green tennis racket, frisbee left of surfboard, white kite below green tennis racket
+Sentence: The frisbee is suspended above the green tennis racket, with the frisbee to the left of the surfboard and the white kite resting below the tennis racket.
+
+Objects: book, scissors, toothbrush, person
+Relation: book left of person, scissors above toothbrush, toothbrush right of person
+Sentence: The person holds a book in their left hand, while a toothbrush is to their right. Above the toothbrush, a pair of scissors is perched.
+
+Objects: red motorcycle, white airplane, brown boat, person
+Relation: brown boat left of person, red motorcycle below person, white airplane above person
+Sentence: The person stands between a brown boat to the left and a red motorcycle below, while a white airplane soars above them.
+
+Objects: white bicycle, silver car, green motorcycle, airplane
+Relation: white bicycle above green motorcycle, silver car left of airplane, green motorcycle right of airplane
+Sentence: The white bicycle is placed above the green motorcycle, while the silver car is to the left of the airplane and the green motorcycle is to the right of the airplane.
+
+Objects: bird, dog, elephant, person
+Relation: dog below elephant, dog above person, bird right of elephant
+Sentence: The elephant stood tall, with the dog below it and the bird to the right. The dog was above the person, who watched the scene unfold.
+
+Objects: bird, dog, horse, cow
+Relation: bird above dog, bird right of horse, horse below cow
+Sentence: The bird flew above the dog, to the right of the horse, and the horse was positioned below the cow.
+
+Objects: snowboard, yellow sports ball, baseball bat, baseball glove
+Relation: yellow sports ball above baseball glove, snowboard right of baseball glove, baseball bat below baseball glove
+Sentence: The yellow sports ball is perched atop the baseball glove, with the snowboard to the right and the baseball bat resting below the glove.
+
+Objects: red bicycle, black bus, truck, person
+Relation: black bus right of person, black bus left of truck, red bicycle above black bus
+Sentence: A person stands to the right of a black bus, which is to the left of a truck. Above the bus, a red bicycle is suspended in the air.
+
+Objects: bicycle, truck, brown boat, person
+Relation: bicycle right of truck, bicycle below person, bicycle left of brown boat
+Sentence: The person stands to the side of the scene, with a bicycle to their right, and the bicycle is positioned to the left of a brown boat. The bicycle is also below the person, while a truck is to the right of the bicycle.
+
+Objects: book, teddy bear, yellow toothbrush, person
+Relation: yellow toothbrush right of person, book below yellow toothbrush, teddy bear above yellow toothbrush
+Sentence: A person holds a yellow toothbrush to their right, with a book below it and a teddy bear perched above.
+
+Objects: vase, scissors, teddy bear, toothbrush
+Relation: scissors right of toothbrush, vase below teddy bear, scissors left of teddy bear
+Sentence: The scissors are positioned to the right of the toothbrush, while the vase is placed below the teddy bear, with the scissors to the left of the bear.
+
+Objects: car, yellow motorcycle, silver truck, boat
+Relation: yellow motorcycle above silver truck, car right of silver truck, car left of yellow motorcycle
+Sentence: The silver truck is parked in the middle, with a yellow motorcycle above it and a car to the right. The car is also to the left of the motorcycle. Further away, a boat is docked.
+
+Objects: bottle, silver wine glass, cup, person
+Relation: bottle below silver wine glass, bottle above cup, silver wine glass left of cup
+Sentence: The bottle rests below the silver wine glass, while the cup is placed above it. The silver wine glass is to the left of the cup, and a person looks on.
+
+Objects: book, yellow vase, scissors, blue hair drier
+Relation: yellow vase above scissors, book below yellow vase, yellow vase left of blue hair drier
+Sentence: The yellow vase is placed above the scissors, with the book resting below it. To the left of the blue hair drier, the vase stands tall.
+
+Objects: laptop, brown mouse, silver keyboard, person
+Relation: brown mouse right of silver keyboard, laptop below person, silver keyboard above person
+Sentence: The person was seated with a silver keyboard above them, and a brown mouse to the right of the keyboard. The laptop was placed below the person.
+
+Objects: cat, horse, cow, person
+Relation: horse right of person, cow above person, horse below cow
+Sentence: The person stands to the right of the horse, while the cow is above them both, with the horse below the cow. A cat watches from a distance.
+
+Objects: microwave, oven, toaster, person
+Relation: oven below toaster, microwave above oven, oven right of person
+Sentence: The person stood to the right of the oven, which was placed below the toaster and above the microwave.
+
+Objects: microwave, yellow toaster, brown refrigerator, person
+Relation: yellow toaster left of person, microwave right of brown refrigerator, microwave above yellow toaster
+Sentence: The person stood to the left of the yellow toaster, while a microwave was placed to the right of the brown refrigerator. The microwave was positioned above the toaster.
+
+Objects: white couch, brown bed, green dining table, person
+Relation: green dining table left of person, brown bed above green dining table, brown bed below person
+Sentence: The person stands to the left of the green dining table, with the brown bed situated above the table and below the person, and the white couch completing the scene.
+
+Objects: brown laptop, silver keyboard, green cell phone, person
+Relation: green cell phone above person, brown laptop right of silver keyboard, silver keyboard below person
+Sentence: The person is seated with a silver keyboard below them and a green cell phone hovering above. To the right of the keyboard is a brown laptop, completing the setup.
+
+Objects: white sandwich, broccoli, green carrot, blue hot dog
+Relation: broccoli below green carrot, broccoli right of blue hot dog, green carrot left of blue hot dog
+Sentence: The broccoli is situated below the green carrot, with the blue hot dog to the right of the broccoli and the carrot to the left of the hot dog. The white sandwich is nearby.
+
+Objects: red frisbee, black sports ball, kite, baseball glove
+Relation: kite below baseball glove, black sports ball left of kite, red frisbee right of baseball glove
+Sentence: The baseball glove was perched atop the kite, with the black sports ball to the left and the red frisbee to the right.
+
+Objects: yellow frisbee, white skis, sports ball, kite
+Relation: yellow frisbee left of kite, yellow frisbee right of sports ball, sports ball below kite
+Sentence: The yellow frisbee was positioned to the left of the kite, and to the right of the sports ball. The sports ball was placed below the kite.
+
+Objects: tv, laptop, brown mouse, blue remote
+Relation: tv left of brown mouse, laptop above blue remote, tv below laptop
+Sentence: The tv is to the left of the brown mouse, with the laptop placed above the blue remote and the tv below the laptop.
+
+Objects: apple, hot dog, cake, person
+Relation: apple below person, apple above cake, apple right of hot dog
+Sentence: The person held an apple in their hand, with the apple positioned above the cake and to the right of the hot dog.
+
+Objects: frisbee, baseball glove, surfboard, blue tennis racket
+Relation: baseball glove right of surfboard, frisbee above baseball glove, frisbee left of surfboard
+Sentence: The frisbee is placed above the baseball glove, which is to the right of the surfboard, while the frisbee is to the left of the surfboard and the blue tennis racket is nearby.
+
+Objects: red bicycle, yellow motorcycle, airplane, person
+Relation: yellow motorcycle below airplane, airplane left of person, red bicycle right of airplane
+Sentence: The yellow motorcycle is situated below the airplane, with the airplane to the left of the person and the red bicycle to the right of the airplane.
+
+Objects: backpack, black umbrella, silver handbag, tie
+Relation: black umbrella right of silver handbag, backpack above tie, backpack left of silver handbag
+Sentence: The black umbrella was placed to the right of the silver handbag, while the backpack was situated above the tie and to the left of the handbag.
+
+Objects: yellow vase, white scissors, toothbrush, person
+Relation: yellow vase below person, toothbrush above person, yellow vase right of toothbrush
+Sentence: A person stands with a yellow vase below them, a toothbrush above them, and the white scissors to the right of the toothbrush.
+
+Objects: chair, potted plant, dining table, toilet
+Relation: dining table below toilet, chair left of potted plant, chair above dining table
+Sentence: The dining table was placed below the toilet, with a chair situated to the left of the potted plant. The chair was also placed above the dining table.
+
+Objects: wine glass, knife, brown bowl, person
+Relation: wine glass above knife, knife left of brown bowl, knife right of person
+Sentence: The person was seated with a brown bowl to their right, and a knife to their left. Above the knife, a wine glass was delicately placed.
+
+Objects: red chair, potted plant, dining table, person
+Relation: red chair above dining table, dining table right of person, red chair below person
+Sentence: A person stands to the right of the dining table, with a red chair above it and below the person. A potted plant is also present in the scene.
+
+Objects: red scissors, white teddy bear, brown hair drier, person
+Relation: brown hair drier left of person, red scissors below person, red scissors right of white teddy bear
+Sentence: The person stands between a brown hair drier to the left and a white teddy bear to the right, with a pair of red scissors placed below them. The scissors are also right of the teddy bear.
+
+Objects: bicycle, black car, yellow train, person
+Relation: black car right of yellow train, bicycle below person, bicycle left of black car
+Sentence: A person stands beside a bicycle, which is positioned below them and to the left of a black car. The car is to the right of a yellow train, completing the scene.
+
+Objects: black chair, yellow couch, dining table, green toilet, person
+Relation: black chair right of person, dining table left of person, black chair below yellow couch
+Sentence: The person is standing between a black chair to the right and a dining table to the left, with the chair positioned below a yellow couch. A green toilet is nearby.
+
+Objects: cat, dog, bear, zebra, giraffe
+Relation: bear right of giraffe, cat below giraffe, dog left of bear
+Sentence: The giraffe stands tall with a bear to its right and a cat below it. A dog is to the left of the bear. A zebra is not far from the scene.
+
+Objects: red wine glass, black fork, knife, spoon, person
+Relation: red wine glass left of person, knife right of person, red wine glass above black fork
+Sentence: The person is situated between the red wine glass to the left and the knife to the right, with the red wine glass placed above the black fork. The spoon is nearby.
+
+Objects: wine glass, yellow cup, fork, brown spoon, person
+Relation: wine glass right of fork, wine glass left of yellow cup, wine glass above brown spoon
+Sentence: A person is holding a wine glass with their right hand, which is placed to the right of a fork and to the left of a yellow cup. The wine glass is also above a brown spoon.
+
+Objects: red car, black motorcycle, bus, boat, person
+Relation: black motorcycle below bus, red car right of bus, black motorcycle left of person
+Sentence: The person is standing next to a red car, with a black motorcycle to their left and a bus in front of them. The motorcycle is positioned below the bus, while a boat is floating in the distance.
+
+Objects: wine glass, yellow fork, brown spoon, silver bowl, person
+Relation: brown spoon above person, brown spoon left of silver bowl, yellow fork right of person
+Sentence: The person is sitting with a yellow fork to their right and a brown spoon hovering above them. The silver bowl is to the left of the brown spoon. A wine glass is nearby.
+
+Objects: frisbee, sports ball, silver baseball glove, green skateboard, tennis racket
+Relation: frisbee below tennis racket, silver baseball glove left of green skateboard, frisbee right of sports ball
+Sentence: A frisbee is placed below a tennis racket, while a silver baseball glove is to the left of a green skateboard. The frisbee is also to the right of a sports ball.
+
+Objects: book, white clock, hair drier, green toothbrush, person
+Relation: book left of white clock, white clock above hair drier, book below green toothbrush
+Sentence: The person is surrounded by a book to the left of a white clock, a hair drier below the clock, and a green toothbrush below the book.
+
+Objects: banana, sandwich, white orange, silver carrot, green donut
+Relation: banana right of sandwich, banana left of silver carrot, banana below green donut
+Sentence: The banana was placed to the right of the sandwich, with the silver carrot to the left of the banana, and the green donut below the banana. A white orange was nearby.
+
+Objects: red skis, sports ball, white skateboard, surfboard, person
+Relation: red skis above white skateboard, red skis left of sports ball, surfboard below person
+Sentence: The person stands on the surfboard, with the red skis hovering above the white skateboard to the left of the sports ball.
+
+Objects: skis, snowboard, sports ball, kite, person
+Relation: snowboard above kite, sports ball right of person, skis left of sports ball
+Sentence: The person stands with a sports ball to their right, while the skis are to the right of the ball. Above them, a snowboard is suspended in the air, with a kite beneath it.
+
+Objects: wine glass, black cup, fork, brown knife, green bowl
+Relation: wine glass right of black cup, wine glass left of brown knife, wine glass below fork
+Sentence: The wine glass is situated between the black cup to its right and the brown knife to its left, with the fork placed below it. A green bowl is also nearby.
+
+Objects: chair, black couch, potted plant, toilet, person
+Relation: black couch above toilet, black couch right of potted plant, chair left of black couch
+Sentence: The person is standing in front of a black couch that is placed to the right of a potted plant and above a toilet. A chair is situated to the left of the couch.
+
+Objects: potted plant, bed, white dining table, toilet, person
+Relation: potted plant below person, bed left of white dining table, potted plant right of toilet
+Sentence: The person stands above a potted plant, while the bed is to the left of the white dining table. The potted plant is to the right of the toilet.
+
+Objects: dog, elephant, bear, zebra, person
+Relation: dog below elephant, elephant above bear, elephant left of person
+Sentence: The person stands to the left of the elephant, who towers above the bear. The dog is positioned below the elephant, while the zebra stands nearby.
+
+Objects: yellow skis, snowboard, silver sports ball, green skateboard, person
+Relation: yellow skis right of silver sports ball, silver sports ball below person, yellow skis above person
+Sentence: The person is standing with a silver sports ball at their feet, while a pair of yellow skis is hovering above them. A green skateboard is nearby and a snowboard is to the right of the silver sports ball.
+
+Objects: bicycle, bus, train, truck, person
+Relation: train below person, bus above truck, bicycle left of truck
+Sentence: The person stands on the train, with a bus hovering above the truck and a bicycle to the left of the truck.
+
+Objects: cat, horse, bear, zebra, person
+Relation: bear right of zebra, cat above person, cat below horse
+Sentence: A person stands in the center of the scene with a bear to the right of a zebra and a cat perched above them. The cat is also situated below a horse.
+
+Objects: dog, cow, elephant, bear, person
+Relation: elephant above bear, cow left of elephant, dog below person
+Sentence: A person stands with a dog below them, while an elephant towers above a bear to the left. A cow is situated to the left of the elephant.
+
+Objects: bird, cat, horse, bear, zebra
+Relation: horse right of bear, bird left of bear, bird above horse
+Sentence: A bear is standing in the center with a bird perched on its left shoulder and a horse to its right. A cat and a zebra are also in the vicinity, watching the scene unfold.
+
+Objects: red banana, broccoli, pizza, silver donut, person
+Relation: pizza left of silver donut, red banana above broccoli, broccoli below silver donut
+Sentence: The person is holding a red banana in their hand while a pizza is placed to the left of a silver donut. Broccoli is located below the donut and above the broccoli is the red banana.
+
+Objects: motorcycle, black bus, train, boat, person
+Relation: black bus above boat, motorcycle below train, train right of person
+Sentence: The person stands to the right of the train, while the black bus hovers above the boat and the motorcycle is situated below the train.
+
+Objects: bird, cat, horse, sheep, zebra
+Relation: cat above zebra, cat below horse, bird left of sheep
+Sentence: The horse stands in the center with a cat perched above the zebra to its right and below the horse. A bird is to the left of the sheep, while the zebra and sheep are standing side by side.
+
+Objects: skis, snowboard, brown kite, surfboard, person
+Relation: skis left of person, brown kite right of surfboard, brown kite above person
+Sentence: The person stands with skis to their left and a brown kite hovering above them, while a snowboard is nearby and a surfboard is to the right of the kite.
+
+Objects: dog, sheep, elephant, bear, person
+Relation: dog right of person, dog below elephant, bear above person
+Sentence: The person was accompanied by a dog to their right, while the dog was positioned below the elephant. A bear was above the person.
+
+Objects: bird, cat, horse, bear, zebra
+Relation: cat right of horse, horse left of zebra, horse above bear
+Sentence: The horse stands between the cat to its right and the zebra to its left, while the bear is below the horse and a bird is perched nearby.
+
+Objects: red apple, black sandwich, carrot, white pizza, cake
+Relation: carrot left of cake, red apple above cake, carrot below white pizza
+Sentence: On the plate, the carrot is placed to the left of the cake, with a red apple above it and the carrot below the white pizza. A black sandwich is nearby.
+
+Objects: red banana, apple, white sandwich, pizza, person
+Relation: pizza above person, red banana below pizza, red banana left of apple
+Sentence: The person is holding a pizza above them, with a red banana below it. The red banana is to the left of an apple, and a white sandwich is nearby.
+
+Objects: cat, dog, elephant, bear, zebra
+Relation: cat left of elephant, elephant right of bear, bear above zebra
+Sentence: A cat is situated to the left of an elephant, while the elephant is to the right of a bear, and the bear is positioned above a zebra.
+
+Objects: skis, sports ball, yellow skateboard, surfboard, person
+Relation: skis right of surfboard, yellow skateboard below person, yellow skateboard left of surfboard
+Sentence: The person is standing on a yellow skateboard to the left of a surfboard, with a pair of skis to the right of the board. A sports ball is nearby.
+
+Objects: red bottle, yellow cup, fork, silver knife, blue bowl
+Relation: yellow cup above fork, fork left of blue bowl, red bottle below blue bowl
+Sentence: The yellow cup was perched above the fork, while the fork was placed to the left of the blue bowl. The red bottle was situated below the bowl. A silver knife was nearby.
+
+Objects: book, scissors, white teddy bear, brown hair drier, toothbrush
+Relation: book left of scissors, scissors above white teddy bear, book right of toothbrush
+Sentence: The book is placed to the left of the scissors, which is positioned above the white teddy bear. The book is also located to the right of the toothbrush.
+
+Objects: cat, dog, elephant, bear, zebra
+Relation: cat left of dog, elephant right of bear, elephant above zebra
+Sentence: The cat is positioned to the left of the dog, while the elephant stands to the right of the bear, and is towering above the zebra.
+
+Objects: cat, dog, horse, giraffe, person
+Relation: cat left of dog, dog below person, giraffe above person
+Sentence: The person is standing with a cat to their left, a dog below them, and a giraffe towering above them. A horse is around.
+
+Objects: red bottle, yellow wine glass, brown cup, knife, spoon
+Relation: red bottle right of yellow wine glass, yellow wine glass above brown cup, brown cup left of spoon
+Sentence: A yellow wine glass is placed above a brown cup, with a red bottle to the right and a spoon to the left. A knife is also present in the scene.
+
+Objects: banana, black apple, yellow sandwich, brown orange, donut
+Relation: brown orange below donut, black apple right of brown orange, banana above yellow sandwich
+Sentence: A donut is placed at the top of the scene, with a brown orange below it and a black apple to the right. A banana is situated above a yellow sandwich.
+
+Objects: black microwave, yellow oven, sink, brown refrigerator, person
+Relation: black microwave below brown refrigerator, black microwave above yellow oven, black microwave left of sink
+Sentence: The black microwave is positioned below the brown refrigerator and above the yellow oven, with the sink to its left. A person is nearby.
+
+Objects: dog, elephant, zebra, giraffe, person
+Relation: dog right of zebra, elephant left of zebra, zebra below giraffe
+Sentence: A zebra is standing below a giraffe, with a dog to its right and an elephant to its left. A person is nearby, observing the animals.
+
+Objects: apple, yellow orange, pizza, green cake, person
+Relation: yellow orange left of person, yellow orange below pizza, apple right of yellow orange
+Sentence: The yellow orange was placed to the left of the person, with the pizza above it and the apple to the right. A green cake was also nearby.
+
+Objects: book, black vase, brown scissors, silver hair drier, person
+Relation: black vase above brown scissors, silver hair drier below person, book right of brown scissors
+Sentence: The person is standing with a silver hair drier below them, while a black vase is placed above a pair of brown scissors to the right of the person. A book is also nearby.
+
+Objects: black apple, sandwich, brown orange, hot dog, cake
+Relation: brown orange right of hot dog, black apple above hot dog, hot dog left of cake
+Sentence: On the plate, the brown orange is placed to the right of the hot dog, while the black apple is above the hot dog and the hot dog is to the left of the cake. A sandwich is nearby.
+
+Objects: red bicycle, car, brown airplane, green truck, blue boat
+Relation: car right of blue boat, brown airplane above blue boat, red bicycle below brown airplane
+Sentence: The blue boat is situated in the center of the scene with a car to the right and a red bicycle below. A brown airplane is hovering above the blue boat.
+
+Objects: black skis, white snowboard, kite, surfboard, person
+Relation: kite right of surfboard, white snowboard below person, white snowboard left of kite
+Sentence: A person is standing on a white snowboard with a kite to their right and a surfboard to their left. Black skis are positioned below the person and the white snowboard.
+
+Objects: cat, horse, cow, elephant, zebra
+Relation: horse right of zebra, cat above cow, elephant below zebra
+Sentence: A zebra stands in the center of the scene with a horse to its right and an elephant below it. A cat is perched above a cow.
+
+Objects: red frisbee, black kite, white baseball glove, silver skateboard, blue surfboard
+Relation: black kite right of white baseball glove, silver skateboard above blue surfboard, red frisbee left of black kite
+Sentence: The white baseball glove is on the ground with a black kite to its right and a red frisbee to the left of the kite. A silver skateboard is hovering above a blue surfboard.
+
+Objects: red frisbee, skis, baseball glove, surfboard, silver tennis racket
+Relation: surfboard right of silver tennis racket, skis left of silver tennis racket, skis below surfboard
+Sentence: The silver tennis racket is positioned between the surfboard to its right and the skis to its left, with the skis placed below the surfboard. A red frisbee and a baseball glove are nearby.
+
+Objects: cat, dog, horse, giraffe, person
+Relation: dog left of person, horse below giraffe, cat above giraffe
+Sentence: A person stands to the left of a dog, while a horse is situated below a giraffe and a cat is perched above the giraffe.
+
+Objects: book, vase, brown teddy bear, hair drier, green toothbrush
+Relation: book below brown teddy bear, vase left of brown teddy bear, brown teddy bear above green toothbrush
+Sentence: A brown teddy bear is perched atop a book, with a vase to its left and a green toothbrush beneath it. A hair drier is nearby, completing the scene.
+
+Objects: red book, yellow clock, brown scissors, teddy bear, blue toothbrush
+Relation: red book above teddy bear, red book right of yellow clock, yellow clock below teddy bear
+Sentence: A red book is placed above a teddy bear, to the right of a yellow clock, which is situated below the teddy bear. A brown pair of scissors and a blue toothbrush are also in the vicinity.
+
+Objects: book, brown clock, silver vase, green teddy bear, blue hair drier
+Relation: book left of blue hair drier, book right of silver vase, brown clock below silver vase
+Sentence: The book is placed to the left of the blue hair drier, while the silver vase is to the right of the book, and the brown clock is situated below the vase. A green teddy bear is also present in the room.
+
+Objects: red tv, black laptop, white mouse, cell phone, person
+Relation: cell phone left of person, red tv above cell phone, red tv right of black laptop, black laptop below white mouse
+Sentence: The person has a cell phone to their left, and above it is a red tv. The red tv is to the right of a black laptop, which is below a white mouse.
+
+Objects: couch, black potted plant, white bed, brown dining table, green toilet
+Relation: white bed below green toilet, couch above white bed, couch right of brown dining table, white bed left of brown dining table
+Sentence: The white bed is situated below the green toilet, with the couch above it and to the right of the brown dining table, while the white bed is to the left of the table and a black potted plant stands nearby.
+
+Objects: red couch, potted plant, brown bed, dining table, person
+Relation: potted plant below brown bed, red couch right of dining table, red couch above potted plant, potted plant left of dining table
+Sentence: The person is standing in the room, looking at a brown bed with a potted plant below it. To the right of the bed is a red couch, which is placed above the potted plant, and to the left of the couch is a dining table.
+
+Objects: bottle, black cup, fork, spoon, person
+Relation: spoon above person, black cup right of fork, fork below spoon, fork left of person
+Sentence: The person is holding a spoon in their hand while a black cup is to the right of a fork that is below the spoon. A bottle is positioned to the left of the person.
+
+Objects: cat, elephant, zebra, giraffe, person
+Relation: elephant right of giraffe, zebra above person, elephant below zebra, elephant left of person
+Sentence: The elephant stands to the right of the giraffe, below the zebra, and to the left of the person. The zebra is above the person, while the cat and giraffe are nearby.
+
+Objects: black bicycle, yellow car, bus, truck, person
+Relation: black bicycle right of truck, truck above person, black bicycle below bus, black bicycle left of person
+Sentence: The person is standing between a black bicycle and a yellow car, with the black bicycle to the right of the truck and below the bus, and to the left of the person. The truck is above the person.
+
+Objects: car, yellow motorcycle, train, truck, person
+Relation: truck below person, yellow motorcycle above train, train left of person, car right of truck
+Sentence: The person is standing between a truck below them and a yellow motorcycle above them, with a train to their left and a car to the right of the truck.
+
+Objects: black apple, carrot, brown donut, cake, person
+Relation: carrot left of brown donut, black apple above cake, black apple right of person, brown donut below cake
+Sentence: The person was holding a black apple to their right, with a carrot to the left of a brown donut below a cake, and the black apple hovering above the cake.
+
+Objects: black sandwich, carrot, hot dog, pizza, blue donut
+Relation: hot dog below blue donut, hot dog above pizza, black sandwich left of carrot, black sandwich right of blue donut
+Sentence: The hot dog is sandwiched between the blue donut above and the pizza below, while the black sandwich is placed to the left of the carrot and to the right of the blue donut.
+
+Objects: yellow skis, snowboard, sports ball, tennis racket, person
+Relation: yellow skis left of person, yellow skis right of tennis racket, snowboard below tennis racket, snowboard above sports ball
+Sentence: The yellow skis are to the left of the person and to the right of the tennis racket, while the snowboard is positioned below the racket and above the sports ball.
+
+Objects: sheep, cow, bear, zebra, person
+Relation: sheep right of person, cow below bear, bear left of person, sheep above bear
+Sentence: The person stands to the right of the sheep, with the bear to their left and the cow below the bear. The sheep is positioned above the bear. A zebra is also in the vicinity.
+
+Objects: bottle, wine glass, fork, bowl, person
+Relation: wine glass above fork, wine glass left of person, bottle right of bowl, bottle below fork
+Sentence: The person is holding a wine glass in their left hand, with the bowl positioned to their right. The bottle is placed below the fork, while the wine glass is hovering above it.
+
+Objects: dog, sheep, zebra, giraffe, person
+Relation: sheep below giraffe, zebra above person, dog left of zebra, sheep right of zebra
+Sentence: The sheep is positioned below the giraffe, while the zebra is above the person. The dog is to the left of the zebra, and the sheep is to the right of the zebra.
+
+Objects: dog, horse, cow, elephant, person
+Relation: horse above cow, dog right of cow, dog below person, cow left of person
+Sentence: The person stands between the cow and the dog, with the cow to their left and the dog to their right. The horse is above the cow, while the dog is below the person. An elephant is also present in the scene.
+
+Objects: frisbee, white skis, brown baseball bat, tennis racket, person
+Relation: brown baseball bat above tennis racket, tennis racket right of person, frisbee below tennis racket, brown baseball bat left of person
+Sentence: The person is holding a tennis racket in their right hand, with a frisbee below it. To their left is a brown baseball bat hovering above a white pair of skis.
+
+Objects: chair, white bed, dining table, silver toilet, person
+Relation: dining table above person, silver toilet right of person, chair below dining table, white bed left of silver toilet
+Sentence: The person is standing in the middle of the room, with a dining table above them and a silver toilet to their right. A chair is placed below the table, and a white bed is to the left of the toilet.
+
+Objects: banana, black sandwich, carrot, silver hot dog, blue cake
+Relation: banana right of carrot, banana left of black sandwich, banana above blue cake, carrot below silver hot dog
+Sentence: A banana is situated between a carrot and a black sandwich, with the banana above a blue cake and the carrot below a silver hot dog.
+
+Objects: bottle, cup, fork, spoon, person
+Relation: cup below person, cup above spoon, bottle left of cup, fork right of person
+Sentence: A person is holding a cup above a spoon, while a bottle is to the left of the cup. A fork is to the right of the person.
+
+Objects: red frisbee, brown snowboard, silver baseball glove, tennis racket, person
+Relation: silver baseball glove left of tennis racket, red frisbee above person, brown snowboard below tennis racket, red frisbee right of silver baseball glove
+Sentence: The person is standing with a silver baseball glove in their left hand and a tennis racket in their right, while a red frisbee is flying above them. A brown snowboard is positioned below the tennis racket and the red frisbee is to the right of the silver baseball glove.
+
+Objects: red laptop, mouse, yellow remote, brown keyboard, person
+Relation: mouse above brown keyboard, yellow remote below brown keyboard, red laptop left of yellow remote, mouse right of yellow remote
+Sentence: The person is sitting in front of a red laptop, with a mouse placed above the brown keyboard and the yellow remote located below it. The mouse is to the right of the yellow remote, while the laptop is to the left of it.
+
+Objects: bird, cat, horse, elephant, giraffe
+Relation: cat left of giraffe, bird above cat, bird below giraffe, bird right of horse
+Sentence: The giraffe stands tall with a cat to its left and a bird hovering above it. The bird is also below the giraffe and to the right of the horse. An elephant is nearby, watching the scene.
+
+Objects: bottle, white cup, brown knife, spoon, bowl
+Relation: bottle below brown knife, bottle above white cup, bottle right of spoon, white cup left of spoon
+Sentence: The bottle is placed between the brown knife and white cup, with the spoon to its right and the cup to its left. The bowl is situated nearby.
+
+Objects: book, white clock, brown hair drier, green toothbrush, person
+Relation: book right of person, brown hair drier left of green toothbrush, white clock below brown hair drier, book above white clock
+Sentence: The person held a book in their right hand, while a brown hair drier was placed to the left of the green toothbrush. The white clock was below the hair drier and the book was above the clock.
+
+Objects: yellow frisbee, white kite, baseball bat, green skateboard, blue tennis racket
+Relation: baseball bat right of green skateboard, yellow frisbee above baseball bat, baseball bat below blue tennis racket, white kite left of green skateboard
+Sentence: The green skateboard had a baseball bat to its right, with a yellow frisbee above the bat and a blue tennis racket below it. To the left of the skateboard was a white kite.
+
+Objects: banana, black apple, sandwich, pizza, green cake
+Relation: banana above sandwich, sandwich left of pizza, banana below black apple, pizza right of green cake
+Sentence: A banana is placed above the sandwich, with the sandwich to the left of the pizza, the banana below the black apple, and the pizza to the right of the green cake.
+
+Objects: black bicycle, car, airplane, bus, person
+Relation: black bicycle right of car, black bicycle below airplane, bus above person, car left of airplane
+Sentence: The black bicycle is to the right of the car, below the airplane, while the bus is hovering above the person and the car is to the left of the airplane.
+
+Objects: red book, black scissors, yellow hair drier, toothbrush, person
+Relation: red book right of toothbrush, black scissors left of yellow hair drier, yellow hair drier below person, toothbrush above person
+Sentence: The person is holding a toothbrush above them while a red book is placed to the right of it. A black scissors is to the left of the yellow hair drier, which is positioned below the person.
+
+Objects: banana, sandwich, orange, brown broccoli, donut
+Relation: banana right of orange, sandwich left of orange, orange below donut, banana above sandwich
+Sentence: An orange is placed in the center of the scene, with a banana to the right and a sandwich to the left. The orange is situated below a donut, while the banana is above the sandwich.
+
+Objects: backpack, umbrella, brown handbag, silver suitcase, person
+Relation: umbrella above silver suitcase, silver suitcase below person, backpack left of umbrella, umbrella right of person
+Sentence: The person is standing with a silver suitcase below them, an umbrella to their right, and a backpack to the left of the umbrella. A brown handbag is nearby.
+
+Objects: frisbee, skis, brown sports ball, silver kite, green baseball bat
+Relation: brown sports ball left of green baseball bat, silver kite below green baseball bat, frisbee right of brown sports ball, frisbee above skis
+Sentence: The brown sports ball was to the left of the green baseball bat, with a silver kite resting below the bat. A frisbee was placed to the right of the ball, and above a pair of skis.
+
+Objects: frisbee, snowboard, sports ball, baseball glove, blue surfboard
+Relation: sports ball right of blue surfboard, baseball glove left of blue surfboard, snowboard above sports ball, frisbee below sports ball
+Sentence: The blue surfboard is in the middle of the scene with a sports ball to the right and a baseball glove to the left. Above the sports ball is a snowboard, and a frisbee is below it.
+
+Objects: bird, cat, horse, cow, zebra
+Relation: cow below zebra, cat above zebra, bird right of zebra, bird left of cat
+Sentence: The cow stands below the zebra, while the cat is perched above the zebra, and the bird is perched to the right of the zebra, with its wings spread to the left of the cat.
+
+Objects: red tv, black mouse, yellow remote, keyboard, silver cell phone
+Relation: black mouse above yellow remote, keyboard below silver cell phone, red tv right of keyboard, red tv left of yellow remote
+Sentence: The red tv is to the right of the keyboard and to the left of the yellow remote, while the black mouse is hovering above the remote. A silver cell phone is below the keyboard.
+
+Objects: red banana, yellow orange, broccoli, carrot, hot dog
+Relation: yellow orange above broccoli, yellow orange right of hot dog, red banana below yellow orange, broccoli left of carrot
+Sentence: A yellow orange is situated above a broccoli, with a red banana below it and a hot dog to its right. A carrot is to the left of the broccoli.
+
+Objects: red book, yellow clock, brown scissors, silver teddy bear, toothbrush
+Relation: yellow clock below toothbrush, brown scissors right of toothbrush, red book left of toothbrush, silver teddy bear above toothbrush
+Sentence: A toothbrush is the focal point of the scene, with a yellow clock below it, a brown scissors to its right, a red book to its left, and a silver teddy bear above it.
+
+Objects: black bottle, cup, brown spoon, bowl, person
+Relation: brown spoon left of person, black bottle below brown spoon, black bottle right of person, black bottle above cup
+Sentence: A person is holding a brown spoon to their left, with a black bottle below it and to the right. The black bottle is also above a cup, while a bowl is nearby.
+
+Objects: red apple, yellow carrot, donut, cake, person
+Relation: red apple below donut, donut right of cake, yellow carrot left of person, yellow carrot above donut
+Sentence: A person is holding a yellow carrot in their left hand, with the carrot positioned above a donut. The donut is to the right of a cake, and a red apple is below the donut.
+
+Objects: red wine glass, black fork, yellow spoon, brown bowl, person
+Relation: black fork right of yellow spoon, black fork left of person, red wine glass below black fork, brown bowl above person
+Sentence: The black fork was placed to the right of the yellow spoon, with the red wine glass below it. The brown bowl was above the person, and the black fork was to the left of the person.
+
+Objects: red skis, yellow baseball bat, surfboard, tennis racket, person
+Relation: yellow baseball bat below tennis racket, surfboard right of tennis racket, red skis above yellow baseball bat, red skis left of surfboard
+Sentence: The person is standing with a yellow baseball bat below them, a tennis racket to the right, and a red pair of skis above the bat and to the left of the surfboard.
+
+Objects: bird, cat, cow, bear, person
+Relation: bird right of person, cat left of person, cat above bear, cat below cow
+Sentence: The person stands in the middle, with a bird to their right and a cat to their left. The cat is perched above the bear and below the cow.
+
+Objects: black tv, white laptop, silver remote, keyboard, cell phone
+Relation: silver remote above keyboard, white laptop below silver remote, white laptop left of keyboard, silver remote right of cell phone
+Sentence: The silver remote is placed above the keyboard, with the white laptop below it and to the left of the keyboard. The silver remote is also to the right of the cell phone. The black tv stands in the background.
+
+Objects: red wine glass, cup, brown fork, spoon, blue bowl
+Relation: red wine glass left of spoon, cup right of brown fork, red wine glass above blue bowl, red wine glass below cup
+Sentence: A red wine glass is situated between a spoon to its left and a cup to its right. The glass is above a blue bowl and below the cup, while a brown fork is to the right of the cup.
+
+Objects: yellow book, white vase, scissors, hair drier, green toothbrush
+Relation: white vase below hair drier, scissors above hair drier, white vase left of green toothbrush, scissors right of green toothbrush
+Sentence: The white vase is placed below the hair drier, with scissors above it, and the green toothbrush is situated between them, with the vase to the left and the scissors to the right. A yellow book is nearby.
+
+Objects: couch, potted plant, bed, toilet, person
+Relation: potted plant above toilet, potted plant left of bed, couch right of toilet, potted plant below person
+Sentence: The person stands below a potted plant, with the bed to the left and the toilet to the right. The couch is to the right of the toilet, and the potted plant is above the toilet.
+
+Objects: yellow bicycle, car, brown bus, green train, blue truck
+Relation: yellow bicycle right of car, car left of brown bus, yellow bicycle above brown bus, car below blue truck
+Sentence: The yellow bicycle is positioned to the right of the car, with the car to the left of the brown bus and the yellow bicycle above the bus. The car is below the blue truck. A green train is nearby.
+
+Objects: bird, dog, horse, giraffe, person
+Relation: horse above person, dog below horse, bird right of dog, bird left of horse
+Sentence: A person stands below a horse, with a dog beneath them. A bird is to the right of the dog and to the left of the horse. A giraffe is not far from the scene.
+
+Objects: red snowboard, kite, silver baseball glove, green skateboard, blue tennis racket
+Relation: red snowboard right of green skateboard, red snowboard below kite, silver baseball glove left of green skateboard, red snowboard above blue tennis racket
+Sentence: The red snowboard is positioned to the right of the green skateboard, with the silver baseball glove to its left. The kite is flying above the red snowboard, and the blue tennis racket is beneath it.
+
+Objects: red car, motorcycle, yellow train, boat, person
+Relation: red car left of person, red car right of yellow train, motorcycle above person, motorcycle below boat
+Sentence: A person is standing between a red car to their left and a yellow train to their right. Above them, a motorcycle is hovering, while below them, a boat is floating.
+
+Objects: snowboard, sports ball, brown kite, baseball bat, surfboard
+Relation: snowboard below brown kite, sports ball left of surfboard, brown kite right of surfboard, baseball bat above surfboard
+Sentence: The snowboard lies beneath the brown kite, while the sports ball is to the left of the surfboard, the brown kite is to the right of the surfboard, and the baseball bat is perched above the surfboard.
+
+Objects: banana, white sandwich, broccoli, hot dog, person
+Relation: banana below white sandwich, white sandwich right of person, white sandwich left of broccoli, broccoli above hot dog
+Sentence: A person is holding a white sandwich in their right hand, with a banana below it and broccoli to the right. The broccoli is above a hot dog.
+
